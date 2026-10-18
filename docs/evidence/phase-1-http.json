@@ -1,0 +1,171 @@
+{
+  "checkedAtUtc": "2026-10-18T11:56:03.611Z",
+  "baseUrl": "http://127.0.0.1:3100/",
+  "checks": 216,
+  "results": [
+    {
+      "path": "/",
+      "status": 308,
+      "location": "/fr"
+    },
+    {
+      "path": "/fr",
+      "status": 200,
+      "language": "fr",
+      "pageId": "home",
+      "languageTarget": "/en",
+      "checks": "HTTP/DOM only"
+    },
+    {
+      "path": "/fr/mission",
+      "status": 200,
+      "language": "fr",
+      "pageId": "mission",
+      "languageTarget": "/en/mission",
+      "checks": "HTTP/DOM only"
+    },
+    {
+      "path": "/fr/equipe",
+      "status": 200,
+      "language": "fr",
+      "pageId": "team",
+      "languageTarget": "/en/team",
+      "checks": "HTTP/DOM only"
+    },
+    {
+      "path": "/fr/evenements",
+      "status": 200,
+      "language": "fr",
+      "pageId": "events",
+      "languageTarget": "/en/events",
+      "checks": "HTTP/DOM only"
+    },
+    {
+      "path": "/fr/photos",
+      "status": 200,
+      "language": "fr",
+      "pageId": "photos",
+      "languageTarget": "/en/photos",
+      "checks": "HTTP/DOM only"
+    },
+    {
+      "path": "/fr/mentions-legales",
+      "status": 200,
+      "language": "fr",
+      "pageId": "legal",
+      "languageTarget": "/en/legal-notice",
+      "checks": "HTTP/DOM only"
+    },
+    {
+      "path": "/fr/confidentialite",
+      "status": 200,
+      "language": "fr",
+      "pageId": "privacy",
+      "languageTarget": "/en/privacy",
+      "checks": "HTTP/DOM only"
+    },
+    {
+      "path": "/en",
+      "status": 200,
+      "language": "en",
+      "pageId": "home",
+      "languageTarget": "/fr",
+      "checks": "HTTP/DOM only"
+    },
+    {
+      "path": "/en/mission",
+      "status": 200,
+      "language": "en",
+      "pageId": "mission",
+      "languageTarget": "/fr/mission",
+      "checks": "HTTP/DOM only"
+    },
+    {
+      "path": "/en/team",
+      "status": 200,
+      "language": "en",
+      "pageId": "team",
+      "languageTarget": "/fr/equipe",
+      "checks": "HTTP/DOM only"
+    },
+    {
+      "path": "/en/events",
+      "status": 200,
+      "language": "en",
+      "pageId": "events",
+      "languageTarget": "/fr/evenements",
+      "checks": "HTTP/DOM only"
+    },
+    {
+      "path": "/en/photos",
+      "status": 200,
+      "language": "en",
+      "pageId": "photos",
+      "languageTarget": "/fr/photos",
+      "checks": "HTTP/DOM only"
+    },
+    {
+      "path": "/en/legal-notice",
+      "status": 200,
+      "language": "en",
+      "pageId": "legal",
+      "languageTarget": "/fr/mentions-legales",
+      "checks": "HTTP/DOM only"
+    },
+    {
+      "path": "/en/privacy",
+      "status": 200,
+      "language": "en",
+      "pageId": "privacy",
+      "languageTarget": "/fr/confidentialite",
+      "checks": "HTTP/DOM only"
+    },
+    {
+      "path": "/de",
+      "status": 404
+    },
+    {
+      "path": "/de/team",
+      "status": 404
+    },
+    {
+      "path": "/FR",
+      "status": 404
+    },
+    {
+      "path": "/mission",
+      "status": 404
+    },
+    {
+      "path": "/fr/unknown",
+      "status": 404
+    },
+    {
+      "path": "/en/unknown",
+      "status": 404
+    },
+    {
+      "path": "/fr/team",
+      "status": 404
+    },
+    {
+      "path": "/en/equipe",
+      "status": 404
+    },
+    {
+      "path": "/fr/evenements/unsupplied-event",
+      "status": 404
+    },
+    {
+      "path": "/fr/contact",
+      "status": 404
+    },
+    {
+      "path": "/en/donate",
+      "status": 404
+    }
+  ],
+  "method": "Local production server HTTP responses and parsed HTML; no rendering or browser interaction",
+  "browserChecksPerformed": false,
+  "referenceFidelityVerified": false
+}

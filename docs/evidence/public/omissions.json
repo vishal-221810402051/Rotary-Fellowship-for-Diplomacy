@@ -1,0 +1,444 @@
+{
+  "preparedAtUtc": "2026-10-18T12:35:59.985442+00:00",
+  "policy": "Local-only historical evidence targets are explicit omissions, not silently missing public assets",
+  "omitted": [
+    {
+      "path": "docs/evidence/data-a-pages.txt",
+      "sha256": "81054fc6fd2a8f717f9d99fe1aa4ba15b2dd0de7f1367520b38448d356ae95e4",
+      "reason": "Private full questionnaire text/source extraction; retain locally only",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/earlier-questionnaire-pages.txt",
+      "sha256": "4ea30348ab61185f115686268971d57b4bbb0aa0604cc2405c86cf0992c380de",
+      "reason": "Private full questionnaire text/source extraction; retain locally only",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-0-closure-baseline.json",
+      "sha256": "c2ede26586019320a811977722bfed16528d07de1555700b36c12a191d018c6a",
+      "reason": "Historical raw logs, machine/private-source metadata, baseline or archived report; reviewed summary published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-0-initial-validation.json",
+      "sha256": "f906133abe24223a3fa9f79231a8db7c48041e983a6e66634a766dc7916dd93a",
+      "reason": "Historical raw logs, machine/private-source metadata, baseline or archived report; reviewed summary published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-0-validation.json",
+      "sha256": "be60e19f77e70a4da6bffe6ebacea39e71175c13011ba7abeab5056636933514",
+      "reason": "Historical raw logs, machine/private-source metadata, baseline or archived report; reviewed summary published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-baseline.json",
+      "sha256": "8c99fbd9f78a1fd97fd629ea105a1185c38fed75bd6bf17bfdce77267db3e787",
+      "reason": "Historical raw logs, machine/private-source metadata, baseline or archived report; reviewed summary published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/local/en-1440-home.png",
+      "sha256": "f765309531411ebebb16dd8588d4524a11034ac391c729a4ec98d4e6204feb17",
+      "reason": "Redundant earlier local screenshot; reviewed six final targeted screenshots published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/local/en-1440-legal.png",
+      "sha256": "4304de4b8e4e5aa90d603448f4b103a9a70fc7b6877b8156cfee52ea9bbc5a19",
+      "reason": "Redundant earlier local screenshot; reviewed six final targeted screenshots published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/local/en-1440-skip-focus.png",
+      "sha256": "f8401c4eb8e73c7b2185e1c2f9d5d6c2816758e34851b3a3279e5648c5b1b01a",
+      "reason": "Redundant earlier local screenshot; reviewed six final targeted screenshots published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/local/en-320-home.png",
+      "sha256": "509b685cad80439e3213fc6201c11a181dd6686d6d074731c1a410b09141ae06",
+      "reason": "Redundant earlier local screenshot; reviewed six final targeted screenshots published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/local/en-320-menu-open.png",
+      "sha256": "a22d54fc8613e33e31faed7fe907afa5e503345c7912207d8b5a0aed6fd73619",
+      "reason": "Redundant earlier local screenshot; reviewed six final targeted screenshots published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/local/en-320-skip-focus.png",
+      "sha256": "6b6e6179f23589fab2efdc8d7e626cf24b4860d494d75e2bfe7768b9072136f9",
+      "reason": "Redundant earlier local screenshot; reviewed six final targeted screenshots published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/local/en-390-home.png",
+      "sha256": "572345da8cd790489432ca2d7af94667ef830d26733a5a556f8002a65a7ca984",
+      "reason": "Redundant earlier local screenshot; reviewed six final targeted screenshots published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/local/en-390-legal.png",
+      "sha256": "ecc46bab55b787e84772ea6bbbd29839471df4ce6044216ace0018ae4523dff8",
+      "reason": "Redundant earlier local screenshot; reviewed six final targeted screenshots published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/local/en-390-menu-open.png",
+      "sha256": "9b382408c1a73dd45e035b8b8f32051ea209fff91e8e5412d630deedca61f5cc",
+      "reason": "Redundant earlier local screenshot; reviewed six final targeted screenshots published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/local/en-390-skip-focus.png",
+      "sha256": "43f5054490185d4b9f29be580af6e61326c84725ea789f8d8feeccef79d46516",
+      "reason": "Redundant earlier local screenshot; reviewed six final targeted screenshots published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/local/en-768-home.png",
+      "sha256": "e7260d8e1c4f5b1c454858c96d3802fc59b01716bfce06ec25f450c954b63520",
+      "reason": "Redundant earlier local screenshot; reviewed six final targeted screenshots published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/local/en-768-menu-open.png",
+      "sha256": "77bc7eca99702ff145552277591d4a5cffb2237bbbbf7758b011981b48b786f6",
+      "reason": "Redundant earlier local screenshot; reviewed six final targeted screenshots published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/local/en-768-skip-focus.png",
+      "sha256": "f0c24f8bfc4b3463a0dc598c1e50358d9a43d88efc680954ce94e61fbeaa0219",
+      "reason": "Redundant earlier local screenshot; reviewed six final targeted screenshots published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/local/error-de.png",
+      "sha256": "01874253a25342670f18e3e0570739e8dd40afc4bfd64225011ff46ab563f373",
+      "reason": "Redundant earlier local screenshot; reviewed six final targeted screenshots published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/local/error-en-unknown.png",
+      "sha256": "5b96064adac83a58ad324864c95a6ae488e410804e60c035c881e4204902a372",
+      "reason": "Redundant earlier local screenshot; reviewed six final targeted screenshots published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/local/focus-regression-results.json",
+      "sha256": "41b75313bfbbac878e428324966fc5f74e7f7e840508b4f0ace9d5a000e5d2b0",
+      "reason": "Historical raw logs, machine/private-source metadata, baseline or archived report; reviewed summary published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/local/fr-1440-home.png",
+      "sha256": "5dbd0c4262848ab1a06d8d39390747fbf57d98815e6ea9e4a27f97d5d79e4d07",
+      "reason": "Redundant earlier local screenshot; reviewed six final targeted screenshots published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/local/fr-1440-legal.png",
+      "sha256": "f2f2bd5a4474587f40715b1d4ee0c9fb90cbc5b7a941ff141b41b9d4c4afdac7",
+      "reason": "Redundant earlier local screenshot; reviewed six final targeted screenshots published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/local/fr-1440-skip-focus.png",
+      "sha256": "b4f0bc4b245b24ed5aba92056123654f5953a184e31b03ad7f92b9e5f44afad6",
+      "reason": "Redundant earlier local screenshot; reviewed six final targeted screenshots published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/local/fr-320-home.png",
+      "sha256": "b292a4c8b0b4469b998ee9e411c77b58ff6aa7d60235f69507b30a1454235d6e",
+      "reason": "Redundant earlier local screenshot; reviewed six final targeted screenshots published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/local/fr-320-menu-open.png",
+      "sha256": "604b60de360d231015fce7a0ef2013f00889111b9f4b93f2316d17c30b5f4df5",
+      "reason": "Redundant earlier local screenshot; reviewed six final targeted screenshots published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/local/fr-320-skip-focus.png",
+      "sha256": "dc128b31000df130df9b52b10a85f5adce4f17c92c268306bd3e3f7a04b69646",
+      "reason": "Redundant earlier local screenshot; reviewed six final targeted screenshots published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/local/fr-390-home.png",
+      "sha256": "a7d7668aca1c3dbc551b10a085874db7891d293952cd3c4c396f198919e7be22",
+      "reason": "Redundant earlier local screenshot; reviewed six final targeted screenshots published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/local/fr-390-legal.png",
+      "sha256": "dc8a94a2bdd7180563a47cea2ecf81d9dae200ecccb10e97103da9020510724c",
+      "reason": "Redundant earlier local screenshot; reviewed six final targeted screenshots published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/local/fr-390-menu-open.png",
+      "sha256": "35a250e8d875cffa8420ec08c36f8c6b209df796f5f85389a7d0e95b09df3e40",
+      "reason": "Redundant earlier local screenshot; reviewed six final targeted screenshots published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/local/fr-390-skip-focus.png",
+      "sha256": "2bd28a0df4ff22fb992dc2912e5ff5d7a16a42272abe92f10bc0b20855561ecf",
+      "reason": "Redundant earlier local screenshot; reviewed six final targeted screenshots published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/local/fr-768-home.png",
+      "sha256": "3eb00420efe09342040281a36bfdaee2d1c02a14490de8e1345af2d20caa81e0",
+      "reason": "Redundant earlier local screenshot; reviewed six final targeted screenshots published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/local/fr-768-menu-open.png",
+      "sha256": "ace7fa62920d9c2c351f5d842a37ad0e24cacff589ec19f07b23803685d5a977",
+      "reason": "Redundant earlier local screenshot; reviewed six final targeted screenshots published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/local/fr-768-skip-focus.png",
+      "sha256": "b167dde74b8165da2f00d21b409c50d464839da1200d56f5bc56211b9510ac2a",
+      "reason": "Redundant earlier local screenshot; reviewed six final targeted screenshots published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/local/initial-results.json",
+      "sha256": "063f7a8d62e86da7fa8fd45bd27235d674e30f74afb66d8909382c57a2236448",
+      "reason": "Historical raw logs, machine/private-source metadata, baseline or archived report; reviewed summary published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/local/initial-skip-defect.png",
+      "sha256": "6aa6d610c2fd52e5b1aea4d95cd22ae3d72670396daed4cad34addc19c2b9fda",
+      "reason": "Redundant earlier local screenshot; reviewed six final targeted screenshots published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/local/resize-regression-results.json",
+      "sha256": "ad82d9641eb9c6b2bb7959678ca59b297af380340e3787e6691e968c9c0de1ce",
+      "reason": "Historical raw logs, machine/private-source metadata, baseline or archived report; reviewed summary published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/README.md",
+      "sha256": "9ae7908b0f5e4f3d409417d5c115500d9f8d12c39a69bef523c29409d91bebe5",
+      "reason": "Historical raw logs, machine/private-source metadata, baseline or archived report; reviewed summary published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/reference/about-1440x900-top.png",
+      "sha256": "e4dd02f1841537185269c67bd4034f2e1d1318c2739eda7471b1de863173419d",
+      "reason": "Unpublished reference capture or raw loading/runtime diagnostics; no privacy/asset publication assertion",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/reference/about-390x844-top.png",
+      "sha256": "d9a58ea7d9fc52485a8e4327e69c04d313592df4a764b3ac93de432debc0c36d",
+      "reason": "Unpublished reference capture or raw loading/runtime diagnostics; no privacy/asset publication assertion",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/reference/followup-home-1440x900-footer.png",
+      "sha256": "6da60d4477958cce12f621c9d4683ddd1ed10e141fb71fe9eec3e4a2161bd8b7",
+      "reason": "Unpublished reference capture or raw loading/runtime diagnostics; no privacy/asset publication assertion",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/reference/followup-home-1440x900-top.png",
+      "sha256": "db99e3e17fa25173c3eb0d4155bfc7478e09054d5c38010a44a10e51aa88f39a",
+      "reason": "Unpublished reference capture or raw loading/runtime diagnostics; no privacy/asset publication assertion",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/reference/followup-home-320x844-footer.png",
+      "sha256": "1363c321a40b27febb65a992bda9597f6621bc8b7c8eec1f0afa281c9e0a8836",
+      "reason": "Unpublished reference capture or raw loading/runtime diagnostics; no privacy/asset publication assertion",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/reference/followup-home-320x844-top.png",
+      "sha256": "6edb6a53fa0a15fff453a7c4ffa7204e2a348969f3b4a4e26c65bfdb4902051d",
+      "reason": "Unpublished reference capture or raw loading/runtime diagnostics; no privacy/asset publication assertion",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/reference/followup-home-390x844-footer.png",
+      "sha256": "9165bf1ea049136445211a6f0fbc84e910232bb1e9112cd7fa3b8277106d5aa8",
+      "reason": "Unpublished reference capture or raw loading/runtime diagnostics; no privacy/asset publication assertion",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/reference/followup-home-390x844-top.png",
+      "sha256": "9d1366348e514938617e9fb303d789a439793ec4ca00d1af5dd0dc965f2b71cb",
+      "reason": "Unpublished reference capture or raw loading/runtime diagnostics; no privacy/asset publication assertion",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/reference/followup-home-768x1024-footer.png",
+      "sha256": "1127a36cae09d78a4dbc60bdc0ef4d2fec19f416e15aeb12144692e26fb17786",
+      "reason": "Unpublished reference capture or raw loading/runtime diagnostics; no privacy/asset publication assertion",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/reference/followup-home-768x1024-top.png",
+      "sha256": "97db7093710408f430f29a644daef1a7cff9146ecd305a03c8ad6c1233e00f86",
+      "reason": "Unpublished reference capture or raw loading/runtime diagnostics; no privacy/asset publication assertion",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/reference/followup-results.json",
+      "sha256": "3a9a6d87f1df2774033c7a0de21b76aa77779b4f0d4b04a337ca7be61a29a277",
+      "reason": "Unpublished reference capture or raw loading/runtime diagnostics; no privacy/asset publication assertion",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/reference/home-1440x900-footer.png",
+      "sha256": "6da60d4477958cce12f621c9d4683ddd1ed10e141fb71fe9eec3e4a2161bd8b7",
+      "reason": "Unpublished reference capture or raw loading/runtime diagnostics; no privacy/asset publication assertion",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/reference/home-1440x900-header.png",
+      "sha256": "09f5fcf03b39c1c5233c01e12b956bf1d7dd8c8db9393854d114c711514a0424",
+      "reason": "Unpublished reference capture or raw loading/runtime diagnostics; no privacy/asset publication assertion",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/reference/home-1440x900-top.png",
+      "sha256": "db99e3e17fa25173c3eb0d4155bfc7478e09054d5c38010a44a10e51aa88f39a",
+      "reason": "Unpublished reference capture or raw loading/runtime diagnostics; no privacy/asset publication assertion",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/reference/home-320x844-top.png",
+      "sha256": "1ecc98d623e70530df83e1933cdc8408410a7838a42aedacfb0b3de6df3f0f4e",
+      "reason": "Unpublished reference capture or raw loading/runtime diagnostics; no privacy/asset publication assertion",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/reference/home-390x844-top.png",
+      "sha256": "d9a58ea7d9fc52485a8e4327e69c04d313592df4a764b3ac93de432debc0c36d",
+      "reason": "Unpublished reference capture or raw loading/runtime diagnostics; no privacy/asset publication assertion",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/reference/home-768x1024-top.png",
+      "sha256": "35bcd418c339d5d06d485e31dd5999e732bff9ce8e419df40c5116b6ced29b7f",
+      "reason": "Unpublished reference capture or raw loading/runtime diagnostics; no privacy/asset publication assertion",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-browser/reference/results.json",
+      "sha256": "87b24984400c8450d1d2c97bd699e7ec189fc57587608843487d0c3442ad024c",
+      "reason": "Unpublished reference capture or raw loading/runtime diagnostics; no privacy/asset publication assertion",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-checks.json",
+      "sha256": "d684298db604fad91b3eb37a26ad79ad592cfa5e3e8df2c8b9107626b046f795",
+      "reason": "Historical raw logs, machine/private-source metadata, baseline or archived report; reviewed summary published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-closure/baseline.json",
+      "sha256": "9f10fda06759a25e2b1408d337eedd25cca2e0b4cbbabcc85b59e0bcdaa803ac",
+      "reason": "Historical raw logs, machine/private-source metadata, baseline or archived report; reviewed summary published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-closure/docs.json",
+      "sha256": "b0b2ab0496e6b1c8ad6ee6a4a223a825831dbc2d35415e0be19348299e2c758d",
+      "reason": "Historical raw logs, machine/private-source metadata, baseline or archived report; reviewed summary published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-closure/phase-1-report-before-closure.txt",
+      "sha256": "e67af8569c4f88cefb79a86347f7f124261994e846e91469dc7cf97db5bbd268",
+      "reason": "Historical raw logs, machine/private-source metadata, baseline or archived report; reviewed summary published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-closure/phase-plan-before-closure.txt",
+      "sha256": "cd63e37ae13f90f78632e4fc5a8112dab70f4f48ecfd427f0e8d58a0f82e3f0e",
+      "reason": "Historical raw logs, machine/private-source metadata, baseline or archived report; reviewed summary published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-closure/review.json",
+      "sha256": "b289035371ac3d64a73e5cddc4d2ab91aa3773004aa0f906c780de38186dc64d",
+      "reason": "Historical raw logs, machine/private-source metadata, baseline or archived report; reviewed summary published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-docs.json",
+      "sha256": "43c9fef88a36df57b73dc67741055c0c0d4cb49a9f71938b7f0285f2c276db01",
+      "reason": "Historical raw logs, machine/private-source metadata, baseline or archived report; reviewed summary published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-fidelity-review/baseline.json",
+      "sha256": "1c5772a70299b2e08c1610d94c3b6d4c21a7ac1388f64a1691262952b80b7fae",
+      "reason": "Historical raw logs, machine/private-source metadata, baseline or archived report; reviewed summary published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-fidelity-review/checks.json",
+      "sha256": "10893ead040661656562fe370170d085ba3139290ec6b3079b1562f7d6cf16ef",
+      "reason": "Historical raw logs, machine/private-source metadata, baseline or archived report; reviewed summary published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-fidelity-review/docs.json",
+      "sha256": "dbec976030cabb31a1b2cf478d50aa03309c741d47fa19270c31478c965a727c",
+      "reason": "Historical raw logs, machine/private-source metadata, baseline or archived report; reviewed summary published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-fidelity-review/preservation.json",
+      "sha256": "091b545d5f6720f7f1648df5e9ffcf9606d27e716edb4b32ffb7567a8ceb34e5",
+      "reason": "Historical raw logs, machine/private-source metadata, baseline or archived report; reviewed summary published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-fidelity-review/report-before-review.txt",
+      "sha256": "5d083408b8be839033b50308170b5442a0feebb1cbb4c89ad017dd3e92e08b88",
+      "reason": "Historical raw logs, machine/private-source metadata, baseline or archived report; reviewed summary published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-1-followup-checks.json",
+      "sha256": "a193831b29c70f99d100536413dc5f561247cef0074bc21c3fae5b1bcba79dfd",
+      "reason": "Historical raw logs, machine/private-source metadata, baseline or archived report; reviewed summary published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/questionnaire-extraction.json",
+      "sha256": "2f010025d8ebde2c73f35cf539a6fecf2574d58c343dd1b5d8d7326e1604b2c6",
+      "reason": "Private full questionnaire text/source extraction; retain locally only",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/reference-browser-availability.json",
+      "sha256": "e9115d490a36546bddb06cde1485bf58ae7ea324be61856be3089d9ca5bf4ebe",
+      "reason": "Historical raw logs, machine/private-source metadata, baseline or archived report; reviewed summary published instead",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/reference-source-observations.json",
+      "sha256": "77598390ce41a2f101c7e9a38add776586b6e7a4278895f01e8c7a8bde730e5a",
+      "reason": "Historical raw logs, machine/private-source metadata, baseline or archived report; reviewed summary published instead",
+      "retainedLocally": true
+    }
+  ]
+}

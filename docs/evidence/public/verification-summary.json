@@ -1,0 +1,108 @@
+{
+  "preparedAtUtc": "2026-10-18T12:35:58.038950+00:00",
+  "method": "Publication-safe summary derived from existing results, not new test execution",
+  "phase1Status": "complete under amended owner acceptance D-024",
+  "phase2": "not authorized or started",
+  "fullRunCommands": [
+    {
+      "command": "npm.cmd run build",
+      "exitCode": 0
+    },
+    {
+      "command": "npm.cmd test",
+      "exitCode": 0
+    },
+    {
+      "command": "npm.cmd audit --json",
+      "exitCode": 0
+    },
+    {
+      "command": "npm.cmd ls --depth=0",
+      "exitCode": 0
+    },
+    {
+      "command": "npm.cmd run check:http",
+      "exitCode": 0
+    },
+    {
+      "command": "npm.cmd run check:browser",
+      "exitCode": 0
+    },
+    {
+      "command": "npm.cmd run typecheck",
+      "exitCode": 0
+    },
+    {
+      "command": "npm.cmd run lint",
+      "exitCode": 0
+    },
+    {
+      "command": "python scripts/check-docs.py",
+      "exitCode": 0
+    }
+  ],
+  "finalAffectedRunCommands": [
+    {
+      "command": "npm.cmd run build",
+      "exitCode": 0
+    },
+    {
+      "command": "npx.cmd tsx scripts/verify-fidelity-review.ts",
+      "exitCode": 0
+    },
+    {
+      "command": "npm.cmd run typecheck",
+      "exitCode": 0
+    },
+    {
+      "command": "npm.cmd run lint",
+      "exitCode": 0
+    }
+  ],
+  "unitTests": {
+    "passed": 8,
+    "failed": 0
+  },
+  "httpChecks": 216,
+  "fullBrowser": {
+    "passed": 95,
+    "failed": 0,
+    "axeScans": 20
+  },
+  "fullBrowserViolations": 0,
+  "gradientReview": {
+    "instances": 54,
+    "minimumConservativeRatio": 5.511005384793061
+  },
+  "targetedBrowser": {
+    "passed": 6,
+    "failed": 0,
+    "axeScans": 2,
+    "violations": 0
+  },
+  "publishedScreenshotPaths": [
+    "docs/evidence/phase-1-fidelity-review/fr-1440x900.png",
+    "docs/evidence/phase-1-fidelity-review/en-team-1440x900.png",
+    "docs/evidence/phase-1-fidelity-review/fr-1024x900.png",
+    "docs/evidence/phase-1-fidelity-review/en-team-1024x900.png",
+    "docs/evidence/phase-1-fidelity-review/fr-390x844.png",
+    "docs/evidence/phase-1-fidelity-review/en-team-320x844.png"
+  ],
+  "browser": "155.0.8059.84",
+  "headless": true,
+  "sandboxEnabled": true,
+  "referenceTypographyEquivalence": "UNVERIFIED; removed from closure requirement by owner D-024",
+  "referenceMobileMenuEquivalence": "UNVERIFIED; removed from closure requirement by owner D-024",
+  "limitations": [
+    "No full WCAG conformance, human screen-reader session or cross-browser certification",
+    "Missing approved content, media rights and legal text still gate publication"
+  ],
+  "sourceSha256": {
+    "docs/evidence/phase-1-followup-checks.json": "a193831b29c70f99d100536413dc5f561247cef0074bc21c3fae5b1bcba79dfd",
+    "docs/evidence/phase-1-fidelity-review/checks.json": "10893ead040661656562fe370170d085ba3139290ec6b3079b1562f7d6cf16ef",
+    "docs/evidence/phase-1-browser/local/results.json": "1c6632853f5391e092c827037a0634832fa60ac7457af72932a627881b956307",
+    "docs/evidence/phase-1-fidelity-review/local-results.json": "9cf62fdab0376a00232b434941305b0cecb0a0605132b12c5e5935ee95a1bbcc",
+    "docs/evidence/phase-1-closure/review.json": "b289035371ac3d64a73e5cddc4d2ab91aa3773004aa0f906c780de38186dc64d",
+    "docs/evidence/phase-1-http.json": "e22cc4ce6c17e6fc4d5ded246713bd865eceaaba5d028deba85e3c12d7fa48a1"
+  }
+}

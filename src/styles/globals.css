@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+/* Reference source tokens; desktop container/header/footer also measured in the
+   partial rendered capture. Fonts/mobile structure remain provisional. */
+@theme {
+  --color-brand: #0067c8;
+  --color-brand-deep: #17458f;
+  --color-gold: #f7a81b;
+  --color-ink: #222b39;
+  --color-muted: #54565a;
+  --color-surface: #f7fafc;
+  --color-line: #d6dee8;
+  --container-site: 82.5rem;
+  --container-readable: 55rem;
+  --font-sans: Arial, Helvetica, sans-serif;
+}
+
+html { color-scheme: light; }
+body { margin: 0; background: white; color: var(--color-ink); font-family: var(--font-sans); }
+:focus-visible { outline: 3px solid var(--color-brand); outline-offset: 4px; }
+button, a { touch-action: manipulation; }
+button { cursor: pointer; }
+.site-identity { overflow-wrap: anywhere; }
+.navigation-band { background: white; }
+.footer-band { background: linear-gradient(90deg in srgb, var(--color-brand), var(--color-brand-deep)); }
+.footer-band :focus-visible { outline-color: white; }
+@media (min-width: 64rem) {
+  .navigation-band { background: linear-gradient(90deg in srgb, var(--color-brand-deep), var(--color-brand)); }
+  .navigation-band :focus-visible { outline-color: white; }
+}
+[hidden] { display: none !important; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}

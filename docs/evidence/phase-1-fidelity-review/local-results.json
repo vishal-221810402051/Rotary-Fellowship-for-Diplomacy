@@ -1,0 +1,1711 @@
+{
+  "checkedAtUtc": "2026-10-18T12:09:15.364Z",
+  "browser": "155.0.8059.84",
+  "headless": true,
+  "sandboxEnabled": true,
+  "referenceRequests": 0,
+  "results": [
+    {
+      "url": "http://127.0.0.1:3100/fr",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": "desktop navigation focused",
+      "layout": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "header": [
+          {
+            "text": "Rotary Fellowship for DiplomacyFrançais (langue actuelle)EnglishAccueilMissionÉquipeÉvénements passésPhotosOuvrir le menuAccueilMissionÉquipeÉvénements passésPhotos",
+            "x": 0,
+            "y": 0,
+            "right": 1440,
+            "bottom": 200,
+            "width": 1440,
+            "height": 200,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "padding": "0px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(34, 43, 57)"
+          }
+        ],
+        "container": [
+          {
+            "text": "AccueilMissionÉquipeÉvénements passésPhotosOuvrir le menuAccueilMissionÉquipeÉvénements passésPhotos",
+            "x": 60,
+            "y": 140,
+            "right": 1380,
+            "bottom": 200,
+            "width": 1320,
+            "height": 60,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "padding": "0px 16px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(34, 43, 57)"
+          }
+        ],
+        "identity": [
+          {
+            "text": "Rotary Fellowship for Diplomacy",
+            "x": 76,
+            "y": 53.5,
+            "right": 449.40625,
+            "bottom": 86.5,
+            "width": 373.40625,
+            "height": 33,
+            "fontSize": "24px",
+            "lineHeight": "33px",
+            "padding": "0px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(23, 69, 143)"
+          }
+        ],
+        "navLinks": [
+          {
+            "text": "Accueil",
+            "x": 76,
+            "y": 146,
+            "right": 179.15625,
+            "bottom": 194,
+            "width": 103.15625,
+            "height": 48,
+            "fontSize": "20px",
+            "lineHeight": "24px",
+            "padding": "12px 16px",
+            "focused": true,
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Mission",
+            "x": 183.15625,
+            "y": 146,
+            "right": 282.953125,
+            "bottom": 194,
+            "width": 99.796875,
+            "height": 48,
+            "fontSize": "20px",
+            "lineHeight": "24px",
+            "padding": "12px 16px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Équipe",
+            "x": 286.953125,
+            "y": 146,
+            "right": 381.234375,
+            "bottom": 194,
+            "width": 94.28125,
+            "height": 48,
+            "fontSize": "20px",
+            "lineHeight": "24px",
+            "padding": "12px 16px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Événements passés",
+            "x": 385.234375,
+            "y": 146,
+            "right": 597.34375,
+            "bottom": 194,
+            "width": 212.109375,
+            "height": 48,
+            "fontSize": "20px",
+            "lineHeight": "24px",
+            "padding": "12px 16px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Photos",
+            "x": 601.34375,
+            "y": 146,
+            "right": 695.609375,
+            "bottom": 194,
+            "width": 94.265625,
+            "height": 48,
+            "fontSize": "20px",
+            "lineHeight": "24px",
+            "padding": "12px 16px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 255, 255)"
+          }
+        ],
+        "footer": [
+          {
+            "text": "Mentions légalesConfidentialitéRotary Fellowship for Diplomacy",
+            "x": 0,
+            "y": 695,
+            "right": 1440,
+            "bottom": 900,
+            "width": 1440,
+            "height": 205,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "padding": "0px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(34, 43, 57)"
+          }
+        ],
+        "footerBand": [
+          {
+            "text": "Mentions légalesConfidentialité",
+            "x": 0,
+            "y": 696,
+            "right": 1440,
+            "bottom": 828,
+            "width": 1440,
+            "height": 132,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "padding": "0px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 255, 255)"
+          }
+        ]
+      },
+      "screenshot": "docs/evidence/phase-1-fidelity-review/fr-1440x900.png",
+      "accessibility": {
+        "engine": {
+          "name": "axe-core",
+          "version": "4.14.0"
+        },
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "tags": [
+              "cat.color",
+              "wcag2aa",
+              "wcag143",
+              "TTv5",
+              "TT13.c",
+              "EN-301-549",
+              "EN-9.1.4.3",
+              "ACT",
+              "RGAAv4",
+              "RGAA-3.2.1"
+            ],
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+            "nodes": [
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "contrastRatio": 0,
+                      "fontSize": "15.0pt (20px)",
+                      "fontWeight": "normal",
+                      "messageKey": "bgGradient",
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<div class=\"navigation-band\">",
+                        "target": [
+                          ".navigation-band"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element's background color could not be determined due to a background gradient"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a class=\"block rounded-sm px-4 py-3 text-lg leading-6 lg:text-xl text-brand-deep hover:bg-surface lg:text-white lg:hover:bg-brand-deep\" href=\"/fr/mission\">Mission</a>",
+                "target": [
+                  ".min-h-15 > li:nth-child(2) > .lg\\:text-white.lg\\:hover\\:bg-brand-deep[href$=\"mission\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "contrastRatio": 0,
+                      "fontSize": "15.0pt (20px)",
+                      "fontWeight": "normal",
+                      "messageKey": "bgGradient",
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<div class=\"navigation-band\">",
+                        "target": [
+                          ".navigation-band"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element's background color could not be determined due to a background gradient"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a class=\"block rounded-sm px-4 py-3 text-lg leading-6 lg:text-xl text-brand-deep hover:bg-surface lg:text-white lg:hover:bg-brand-deep\" href=\"/fr/equipe\">Équipe</a>",
+                "target": [
+                  ".min-h-15 > li:nth-child(3) > .lg\\:text-white.lg\\:hover\\:bg-brand-deep[href$=\"equipe\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "contrastRatio": 0,
+                      "fontSize": "15.0pt (20px)",
+                      "fontWeight": "normal",
+                      "messageKey": "bgGradient",
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<div class=\"navigation-band\">",
+                        "target": [
+                          ".navigation-band"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element's background color could not be determined due to a background gradient"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a class=\"block rounded-sm px-4 py-3 text-lg leading-6 lg:text-xl text-brand-deep hover:bg-surface lg:text-white lg:hover:bg-brand-deep\" href=\"/fr/evenements\">Événements passés</a>",
+                "target": [
+                  ".min-h-15 > li:nth-child(4) > .lg\\:text-white.lg\\:hover\\:bg-brand-deep[href$=\"evenements\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "contrastRatio": 0,
+                      "fontSize": "15.0pt (20px)",
+                      "fontWeight": "normal",
+                      "messageKey": "bgGradient",
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<div class=\"navigation-band\">",
+                        "target": [
+                          ".navigation-band"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element's background color could not be determined due to a background gradient"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a class=\"block rounded-sm px-4 py-3 text-lg leading-6 lg:text-xl text-brand-deep hover:bg-surface lg:text-white lg:hover:bg-brand-deep\" href=\"/fr/photos\">Photos</a>",
+                "target": [
+                  ".min-h-15 > li:nth-child(5) > .lg\\:text-white.lg\\:hover\\:bg-brand-deep[href$=\"photos\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "contrastRatio": 0,
+                      "fontSize": "10.5pt (14px)",
+                      "fontWeight": "normal",
+                      "messageKey": "bgGradient",
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<div class=\"footer-band text-white\">",
+                        "target": [
+                          ".footer-band"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element's background color could not be determined due to a background gradient"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a class=\"inline-flex min-h-11 items-center underline underline-offset-4 \" href=\"/fr/mentions-legales\">Mentions légales</a>",
+                "target": [
+                  "a[href$=\"mentions-legales\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "contrastRatio": 0,
+                      "fontSize": "10.5pt (14px)",
+                      "fontWeight": "normal",
+                      "messageKey": "bgGradient",
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<div class=\"footer-band text-white\">",
+                        "target": [
+                          ".footer-band"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element's background color could not be determined due to a background gradient"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a class=\"inline-flex min-h-11 items-center underline underline-offset-4 \" href=\"/fr/confidentialite\">Confidentialité</a>",
+                "target": [
+                  "a[href$=\"confidentialite\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              }
+            ]
+          }
+        ],
+        "contrastReview": [
+          {
+            "target": [
+              ".min-h-15 > li:nth-child(2) > .lg\\:text-white.lg\\:hover\\:bg-brand-deep[href$=\"mission\"]"
+            ],
+            "color": "rgb(255, 255, 255)",
+            "background": "linear-gradient(90deg, rgb(23, 69, 143), rgb(0, 103, 200))",
+            "contrastLowerBound": 5.511005384793061,
+            "resolved": true,
+            "method": "Actual computed colours equal the previously reviewed sRGB gradient; unchanged conservative calculation reused",
+            "evidence": "../phase-1-browser/local/results.json"
+          },
+          {
+            "target": [
+              ".min-h-15 > li:nth-child(3) > .lg\\:text-white.lg\\:hover\\:bg-brand-deep[href$=\"equipe\"]"
+            ],
+            "color": "rgb(255, 255, 255)",
+            "background": "linear-gradient(90deg, rgb(23, 69, 143), rgb(0, 103, 200))",
+            "contrastLowerBound": 5.511005384793061,
+            "resolved": true,
+            "method": "Actual computed colours equal the previously reviewed sRGB gradient; unchanged conservative calculation reused",
+            "evidence": "../phase-1-browser/local/results.json"
+          },
+          {
+            "target": [
+              ".min-h-15 > li:nth-child(4) > .lg\\:text-white.lg\\:hover\\:bg-brand-deep[href$=\"evenements\"]"
+            ],
+            "color": "rgb(255, 255, 255)",
+            "background": "linear-gradient(90deg, rgb(23, 69, 143), rgb(0, 103, 200))",
+            "contrastLowerBound": 5.511005384793061,
+            "resolved": true,
+            "method": "Actual computed colours equal the previously reviewed sRGB gradient; unchanged conservative calculation reused",
+            "evidence": "../phase-1-browser/local/results.json"
+          },
+          {
+            "target": [
+              ".min-h-15 > li:nth-child(5) > .lg\\:text-white.lg\\:hover\\:bg-brand-deep[href$=\"photos\"]"
+            ],
+            "color": "rgb(255, 255, 255)",
+            "background": "linear-gradient(90deg, rgb(23, 69, 143), rgb(0, 103, 200))",
+            "contrastLowerBound": 5.511005384793061,
+            "resolved": true,
+            "method": "Actual computed colours equal the previously reviewed sRGB gradient; unchanged conservative calculation reused",
+            "evidence": "../phase-1-browser/local/results.json"
+          },
+          {
+            "target": [
+              "a[href$=\"mentions-legales\"]"
+            ],
+            "color": "rgb(255, 255, 255)",
+            "background": "linear-gradient(90deg, rgb(0, 103, 200), rgb(23, 69, 143))",
+            "contrastLowerBound": 5.511005384793061,
+            "resolved": true,
+            "method": "Actual computed colours equal the previously reviewed sRGB gradient; unchanged conservative calculation reused",
+            "evidence": "../phase-1-browser/local/results.json"
+          },
+          {
+            "target": [
+              "a[href$=\"confidentialite\"]"
+            ],
+            "color": "rgb(255, 255, 255)",
+            "background": "linear-gradient(90deg, rgb(0, 103, 200), rgb(23, 69, 143))",
+            "contrastLowerBound": 5.511005384793061,
+            "resolved": true,
+            "method": "Actual computed colours equal the previously reviewed sRGB gradient; unchanged conservative calculation reused",
+            "evidence": "../phase-1-browser/local/results.json"
+          }
+        ]
+      },
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:3100/en/team",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "state": "desktop navigation focused",
+      "layout": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "header": [
+          {
+            "text": "Rotary Fellowship for DiplomacyFrançaisEnglish (current language)HomeMissionTeamPast eventsPhotosOpen menuHomeMissionTeamPast eventsPhotos",
+            "x": 0,
+            "y": 0,
+            "right": 1440,
+            "bottom": 200,
+            "width": 1440,
+            "height": 200,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "padding": "0px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(34, 43, 57)"
+          }
+        ],
+        "container": [
+          {
+            "text": "HomeMissionTeamPast eventsPhotosOpen menuHomeMissionTeamPast eventsPhotos",
+            "x": 60,
+            "y": 140,
+            "right": 1380,
+            "bottom": 200,
+            "width": 1320,
+            "height": 60,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "padding": "0px 16px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(34, 43, 57)"
+          }
+        ],
+        "identity": [
+          {
+            "text": "Rotary Fellowship for Diplomacy",
+            "x": 76,
+            "y": 53.5,
+            "right": 449.40625,
+            "bottom": 86.5,
+            "width": 373.40625,
+            "height": 33,
+            "fontSize": "24px",
+            "lineHeight": "33px",
+            "padding": "0px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(23, 69, 143)"
+          }
+        ],
+        "navLinks": [
+          {
+            "text": "Home",
+            "x": 76,
+            "y": 146,
+            "right": 161.359375,
+            "bottom": 194,
+            "width": 85.359375,
+            "height": 48,
+            "fontSize": "20px",
+            "lineHeight": "24px",
+            "padding": "12px 16px",
+            "focused": true,
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Mission",
+            "x": 165.359375,
+            "y": 146,
+            "right": 265.15625,
+            "bottom": 194,
+            "width": 99.796875,
+            "height": 48,
+            "fontSize": "20px",
+            "lineHeight": "24px",
+            "padding": "12px 16px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Team",
+            "x": 269.15625,
+            "y": 146,
+            "right": 351.921875,
+            "bottom": 194,
+            "width": 82.765625,
+            "height": 48,
+            "fontSize": "20px",
+            "lineHeight": "24px",
+            "padding": "12px 16px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Past events",
+            "x": 355.921875,
+            "y": 146,
+            "right": 492.4375,
+            "bottom": 194,
+            "width": 136.515625,
+            "height": 48,
+            "fontSize": "20px",
+            "lineHeight": "24px",
+            "padding": "12px 16px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Photos",
+            "x": 496.4375,
+            "y": 146,
+            "right": 590.703125,
+            "bottom": 194,
+            "width": 94.265625,
+            "height": 48,
+            "fontSize": "20px",
+            "lineHeight": "24px",
+            "padding": "12px 16px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 255, 255)"
+          }
+        ],
+        "footer": [
+          {
+            "text": "Legal noticePrivacyRotary Fellowship for Diplomacy",
+            "x": 0,
+            "y": 695,
+            "right": 1440,
+            "bottom": 900,
+            "width": 1440,
+            "height": 205,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "padding": "0px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(34, 43, 57)"
+          }
+        ],
+        "footerBand": [
+          {
+            "text": "Legal noticePrivacy",
+            "x": 0,
+            "y": 696,
+            "right": 1440,
+            "bottom": 828,
+            "width": 1440,
+            "height": 132,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "padding": "0px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 255, 255)"
+          }
+        ]
+      },
+      "screenshot": "docs/evidence/phase-1-fidelity-review/en-team-1440x900.png",
+      "accessibility": {
+        "engine": {
+          "name": "axe-core",
+          "version": "4.14.0"
+        },
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "tags": [
+              "cat.color",
+              "wcag2aa",
+              "wcag143",
+              "TTv5",
+              "TT13.c",
+              "EN-301-549",
+              "EN-9.1.4.3",
+              "ACT",
+              "RGAAv4",
+              "RGAA-3.2.1"
+            ],
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "help": "Elements must meet minimum color contrast ratio thresholds",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright",
+            "nodes": [
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "contrastRatio": 0,
+                      "fontSize": "15.0pt (20px)",
+                      "fontWeight": "normal",
+                      "messageKey": "bgGradient",
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<div class=\"navigation-band\">",
+                        "target": [
+                          ".navigation-band"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element's background color could not be determined due to a background gradient"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a class=\"block rounded-sm px-4 py-3 text-lg leading-6 lg:text-xl text-brand-deep hover:bg-surface lg:text-white lg:hover:bg-brand-deep\" href=\"/en\">Home</a>",
+                "target": [
+                  ".min-h-15 > li:nth-child(1) > .lg\\:text-white.lg\\:hover\\:bg-brand-deep[href=\"/en\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "contrastRatio": 0,
+                      "fontSize": "15.0pt (20px)",
+                      "fontWeight": "normal",
+                      "messageKey": "bgGradient",
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<div class=\"navigation-band\">",
+                        "target": [
+                          ".navigation-band"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element's background color could not be determined due to a background gradient"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a class=\"block rounded-sm px-4 py-3 text-lg leading-6 lg:text-xl text-brand-deep hover:bg-surface lg:text-white lg:hover:bg-brand-deep\" href=\"/en/mission\">Mission</a>",
+                "target": [
+                  ".min-h-15 > li:nth-child(2) > .lg\\:text-white.lg\\:hover\\:bg-brand-deep[href$=\"mission\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "contrastRatio": 0,
+                      "fontSize": "15.0pt (20px)",
+                      "fontWeight": "normal",
+                      "messageKey": "bgGradient",
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<div class=\"navigation-band\">",
+                        "target": [
+                          ".navigation-band"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element's background color could not be determined due to a background gradient"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a class=\"block rounded-sm px-4 py-3 text-lg leading-6 lg:text-xl text-brand-deep hover:bg-surface lg:text-white lg:hover:bg-brand-deep\" href=\"/en/events\">Past events</a>",
+                "target": [
+                  ".min-h-15 > li:nth-child(4) > .lg\\:text-white.lg\\:hover\\:bg-brand-deep[href$=\"events\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "contrastRatio": 0,
+                      "fontSize": "15.0pt (20px)",
+                      "fontWeight": "normal",
+                      "messageKey": "bgGradient",
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<div class=\"navigation-band\">",
+                        "target": [
+                          ".navigation-band"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element's background color could not be determined due to a background gradient"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a class=\"block rounded-sm px-4 py-3 text-lg leading-6 lg:text-xl text-brand-deep hover:bg-surface lg:text-white lg:hover:bg-brand-deep\" href=\"/en/photos\">Photos</a>",
+                "target": [
+                  ".min-h-15 > li:nth-child(5) > .lg\\:text-white.lg\\:hover\\:bg-brand-deep[href$=\"photos\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "contrastRatio": 0,
+                      "fontSize": "10.5pt (14px)",
+                      "fontWeight": "normal",
+                      "messageKey": "bgGradient",
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<div class=\"footer-band text-white\">",
+                        "target": [
+                          ".footer-band"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element's background color could not be determined due to a background gradient"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a class=\"inline-flex min-h-11 items-center underline underline-offset-4 \" href=\"/en/legal-notice\">Legal notice</a>",
+                "target": [
+                  "a[href$=\"legal-notice\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              },
+              {
+                "any": [
+                  {
+                    "id": "color-contrast",
+                    "data": {
+                      "contrastRatio": 0,
+                      "fontSize": "10.5pt (14px)",
+                      "fontWeight": "normal",
+                      "messageKey": "bgGradient",
+                      "expectedContrastRatio": "4.5:1"
+                    },
+                    "relatedNodes": [
+                      {
+                        "html": "<div class=\"footer-band text-white\">",
+                        "target": [
+                          ".footer-band"
+                        ]
+                      }
+                    ],
+                    "impact": "serious",
+                    "message": "Element's background color could not be determined due to a background gradient"
+                  }
+                ],
+                "all": [],
+                "none": [],
+                "impact": "serious",
+                "html": "<a class=\"inline-flex min-h-11 items-center underline underline-offset-4 \" href=\"/en/privacy\">Privacy</a>",
+                "target": [
+                  "a[href$=\"privacy\"]"
+                ],
+                "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+              }
+            ]
+          }
+        ],
+        "contrastReview": [
+          {
+            "target": [
+              ".min-h-15 > li:nth-child(1) > .lg\\:text-white.lg\\:hover\\:bg-brand-deep[href=\"/en\"]"
+            ],
+            "color": "rgb(255, 255, 255)",
+            "background": "linear-gradient(90deg, rgb(23, 69, 143), rgb(0, 103, 200))",
+            "contrastLowerBound": 5.511005384793061,
+            "resolved": true,
+            "method": "Actual computed colours equal the previously reviewed sRGB gradient; unchanged conservative calculation reused",
+            "evidence": "../phase-1-browser/local/results.json"
+          },
+          {
+            "target": [
+              ".min-h-15 > li:nth-child(2) > .lg\\:text-white.lg\\:hover\\:bg-brand-deep[href$=\"mission\"]"
+            ],
+            "color": "rgb(255, 255, 255)",
+            "background": "linear-gradient(90deg, rgb(23, 69, 143), rgb(0, 103, 200))",
+            "contrastLowerBound": 5.511005384793061,
+            "resolved": true,
+            "method": "Actual computed colours equal the previously reviewed sRGB gradient; unchanged conservative calculation reused",
+            "evidence": "../phase-1-browser/local/results.json"
+          },
+          {
+            "target": [
+              ".min-h-15 > li:nth-child(4) > .lg\\:text-white.lg\\:hover\\:bg-brand-deep[href$=\"events\"]"
+            ],
+            "color": "rgb(255, 255, 255)",
+            "background": "linear-gradient(90deg, rgb(23, 69, 143), rgb(0, 103, 200))",
+            "contrastLowerBound": 5.511005384793061,
+            "resolved": true,
+            "method": "Actual computed colours equal the previously reviewed sRGB gradient; unchanged conservative calculation reused",
+            "evidence": "../phase-1-browser/local/results.json"
+          },
+          {
+            "target": [
+              ".min-h-15 > li:nth-child(5) > .lg\\:text-white.lg\\:hover\\:bg-brand-deep[href$=\"photos\"]"
+            ],
+            "color": "rgb(255, 255, 255)",
+            "background": "linear-gradient(90deg, rgb(23, 69, 143), rgb(0, 103, 200))",
+            "contrastLowerBound": 5.511005384793061,
+            "resolved": true,
+            "method": "Actual computed colours equal the previously reviewed sRGB gradient; unchanged conservative calculation reused",
+            "evidence": "../phase-1-browser/local/results.json"
+          },
+          {
+            "target": [
+              "a[href$=\"legal-notice\"]"
+            ],
+            "color": "rgb(255, 255, 255)",
+            "background": "linear-gradient(90deg, rgb(0, 103, 200), rgb(23, 69, 143))",
+            "contrastLowerBound": 5.511005384793061,
+            "resolved": true,
+            "method": "Actual computed colours equal the previously reviewed sRGB gradient; unchanged conservative calculation reused",
+            "evidence": "../phase-1-browser/local/results.json"
+          },
+          {
+            "target": [
+              "a[href$=\"privacy\"]"
+            ],
+            "color": "rgb(255, 255, 255)",
+            "background": "linear-gradient(90deg, rgb(0, 103, 200), rgb(23, 69, 143))",
+            "contrastLowerBound": 5.511005384793061,
+            "resolved": true,
+            "method": "Actual computed colours equal the previously reviewed sRGB gradient; unchanged conservative calculation reused",
+            "evidence": "../phase-1-browser/local/results.json"
+          }
+        ]
+      },
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:3100/fr",
+      "viewport": {
+        "width": 1024,
+        "height": 900
+      },
+      "state": "desktop navigation focused",
+      "layout": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "header": [
+          {
+            "text": "Rotary Fellowship for DiplomacyFrançais (langue actuelle)EnglishAccueilMissionÉquipeÉvénements passésPhotosOuvrir le menuAccueilMissionÉquipeÉvénements passésPhotos",
+            "x": 0,
+            "y": 0,
+            "right": 1024,
+            "bottom": 200,
+            "width": 1024,
+            "height": 200,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "padding": "0px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(34, 43, 57)"
+          }
+        ],
+        "container": [
+          {
+            "text": "AccueilMissionÉquipeÉvénements passésPhotosOuvrir le menuAccueilMissionÉquipeÉvénements passésPhotos",
+            "x": 0,
+            "y": 140,
+            "right": 1024,
+            "bottom": 200,
+            "width": 1024,
+            "height": 60,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "padding": "0px 16px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(34, 43, 57)"
+          }
+        ],
+        "identity": [
+          {
+            "text": "Rotary Fellowship for Diplomacy",
+            "x": 16,
+            "y": 53.5,
+            "right": 389.40625,
+            "bottom": 86.5,
+            "width": 373.40625,
+            "height": 33,
+            "fontSize": "24px",
+            "lineHeight": "33px",
+            "padding": "0px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(23, 69, 143)"
+          }
+        ],
+        "navLinks": [
+          {
+            "text": "Accueil",
+            "x": 16,
+            "y": 146,
+            "right": 119.15625,
+            "bottom": 194,
+            "width": 103.15625,
+            "height": 48,
+            "fontSize": "20px",
+            "lineHeight": "24px",
+            "padding": "12px 16px",
+            "focused": true,
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Mission",
+            "x": 123.15625,
+            "y": 146,
+            "right": 222.953125,
+            "bottom": 194,
+            "width": 99.796875,
+            "height": 48,
+            "fontSize": "20px",
+            "lineHeight": "24px",
+            "padding": "12px 16px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Équipe",
+            "x": 226.953125,
+            "y": 146,
+            "right": 321.234375,
+            "bottom": 194,
+            "width": 94.28125,
+            "height": 48,
+            "fontSize": "20px",
+            "lineHeight": "24px",
+            "padding": "12px 16px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Événements passés",
+            "x": 325.234375,
+            "y": 146,
+            "right": 537.34375,
+            "bottom": 194,
+            "width": 212.109375,
+            "height": 48,
+            "fontSize": "20px",
+            "lineHeight": "24px",
+            "padding": "12px 16px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Photos",
+            "x": 541.34375,
+            "y": 146,
+            "right": 635.609375,
+            "bottom": 194,
+            "width": 94.265625,
+            "height": 48,
+            "fontSize": "20px",
+            "lineHeight": "24px",
+            "padding": "12px 16px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 255, 255)"
+          }
+        ],
+        "footer": [
+          {
+            "text": "Mentions légalesConfidentialitéRotary Fellowship for Diplomacy",
+            "x": 0,
+            "y": 695,
+            "right": 1024,
+            "bottom": 900,
+            "width": 1024,
+            "height": 205,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "padding": "0px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(34, 43, 57)"
+          }
+        ],
+        "footerBand": [
+          {
+            "text": "Mentions légalesConfidentialité",
+            "x": 0,
+            "y": 696,
+            "right": 1024,
+            "bottom": 828,
+            "width": 1024,
+            "height": 132,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "padding": "0px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 255, 255)"
+          }
+        ]
+      },
+      "screenshot": "docs/evidence/phase-1-fidelity-review/fr-1024x900.png",
+      "accessibility": null,
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:3100/en/team",
+      "viewport": {
+        "width": 1024,
+        "height": 900
+      },
+      "state": "desktop navigation focused",
+      "layout": {
+        "width": 1024,
+        "scrollWidth": 1024,
+        "header": [
+          {
+            "text": "Rotary Fellowship for DiplomacyFrançaisEnglish (current language)HomeMissionTeamPast eventsPhotosOpen menuHomeMissionTeamPast eventsPhotos",
+            "x": 0,
+            "y": 0,
+            "right": 1024,
+            "bottom": 200,
+            "width": 1024,
+            "height": 200,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "padding": "0px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(34, 43, 57)"
+          }
+        ],
+        "container": [
+          {
+            "text": "HomeMissionTeamPast eventsPhotosOpen menuHomeMissionTeamPast eventsPhotos",
+            "x": 0,
+            "y": 140,
+            "right": 1024,
+            "bottom": 200,
+            "width": 1024,
+            "height": 60,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "padding": "0px 16px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(34, 43, 57)"
+          }
+        ],
+        "identity": [
+          {
+            "text": "Rotary Fellowship for Diplomacy",
+            "x": 16,
+            "y": 53.5,
+            "right": 389.40625,
+            "bottom": 86.5,
+            "width": 373.40625,
+            "height": 33,
+            "fontSize": "24px",
+            "lineHeight": "33px",
+            "padding": "0px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(23, 69, 143)"
+          }
+        ],
+        "navLinks": [
+          {
+            "text": "Home",
+            "x": 16,
+            "y": 146,
+            "right": 101.359375,
+            "bottom": 194,
+            "width": 85.359375,
+            "height": 48,
+            "fontSize": "20px",
+            "lineHeight": "24px",
+            "padding": "12px 16px",
+            "focused": true,
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Mission",
+            "x": 105.359375,
+            "y": 146,
+            "right": 205.15625,
+            "bottom": 194,
+            "width": 99.796875,
+            "height": 48,
+            "fontSize": "20px",
+            "lineHeight": "24px",
+            "padding": "12px 16px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Team",
+            "x": 209.15625,
+            "y": 146,
+            "right": 291.921875,
+            "bottom": 194,
+            "width": 82.765625,
+            "height": 48,
+            "fontSize": "20px",
+            "lineHeight": "24px",
+            "padding": "12px 16px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Past events",
+            "x": 295.921875,
+            "y": 146,
+            "right": 432.4375,
+            "bottom": 194,
+            "width": 136.515625,
+            "height": 48,
+            "fontSize": "20px",
+            "lineHeight": "24px",
+            "padding": "12px 16px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Photos",
+            "x": 436.4375,
+            "y": 146,
+            "right": 530.703125,
+            "bottom": 194,
+            "width": 94.265625,
+            "height": 48,
+            "fontSize": "20px",
+            "lineHeight": "24px",
+            "padding": "12px 16px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 255, 255)"
+          }
+        ],
+        "footer": [
+          {
+            "text": "Legal noticePrivacyRotary Fellowship for Diplomacy",
+            "x": 0,
+            "y": 695,
+            "right": 1024,
+            "bottom": 900,
+            "width": 1024,
+            "height": 205,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "padding": "0px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(34, 43, 57)"
+          }
+        ],
+        "footerBand": [
+          {
+            "text": "Legal noticePrivacy",
+            "x": 0,
+            "y": 696,
+            "right": 1024,
+            "bottom": 828,
+            "width": 1024,
+            "height": 132,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "padding": "0px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 255, 255)"
+          }
+        ]
+      },
+      "screenshot": "docs/evidence/phase-1-fidelity-review/en-team-1024x900.png",
+      "accessibility": null,
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:3100/fr",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "state": "mobile disclosure open, navigation focused",
+      "layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "header": [
+          {
+            "text": "Rotary Fellowship for DiplomacyFrançais (langue actuelle)EnglishAccueilMissionÉquipeÉvénements passésPhotosFermer le menuAccueilMissionÉquipeÉvénements passésPhotos",
+            "x": 0,
+            "y": 0,
+            "right": 390,
+            "bottom": 475.5,
+            "width": 390,
+            "height": 475.5,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "padding": "0px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(34, 43, 57)"
+          }
+        ],
+        "container": [
+          {
+            "text": "AccueilMissionÉquipeÉvénements passésPhotosFermer le menuAccueilMissionÉquipeÉvénements passésPhotos",
+            "x": 0,
+            "y": 139.5,
+            "right": 390,
+            "bottom": 475.5,
+            "width": 390,
+            "height": 336,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "padding": "0px 16px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(34, 43, 57)"
+          }
+        ],
+        "identity": [
+          {
+            "text": "Rotary Fellowship for Diplomacy",
+            "x": 16,
+            "y": 24,
+            "right": 327.171875,
+            "bottom": 51.5,
+            "width": 311.171875,
+            "height": 27.5,
+            "fontSize": "20px",
+            "lineHeight": "27.5px",
+            "padding": "0px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(23, 69, 143)"
+          }
+        ],
+        "navLinks": [
+          {
+            "text": "Accueil",
+            "x": 16,
+            "y": 207.5,
+            "right": 374,
+            "bottom": 255.5,
+            "width": 358,
+            "height": 48,
+            "fontSize": "18px",
+            "lineHeight": "24px",
+            "padding": "12px 16px",
+            "focused": true,
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(0, 103, 200)"
+          },
+          {
+            "text": "Mission",
+            "x": 16,
+            "y": 259.5,
+            "right": 374,
+            "bottom": 307.5,
+            "width": 358,
+            "height": 48,
+            "fontSize": "18px",
+            "lineHeight": "24px",
+            "padding": "12px 16px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(23, 69, 143)"
+          },
+          {
+            "text": "Équipe",
+            "x": 16,
+            "y": 311.5,
+            "right": 374,
+            "bottom": 359.5,
+            "width": 358,
+            "height": 48,
+            "fontSize": "18px",
+            "lineHeight": "24px",
+            "padding": "12px 16px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(23, 69, 143)"
+          },
+          {
+            "text": "Événements passés",
+            "x": 16,
+            "y": 363.5,
+            "right": 374,
+            "bottom": 411.5,
+            "width": 358,
+            "height": 48,
+            "fontSize": "18px",
+            "lineHeight": "24px",
+            "padding": "12px 16px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(23, 69, 143)"
+          },
+          {
+            "text": "Photos",
+            "x": 16,
+            "y": 415.5,
+            "right": 374,
+            "bottom": 463.5,
+            "width": 358,
+            "height": 48,
+            "fontSize": "18px",
+            "lineHeight": "24px",
+            "padding": "12px 16px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(23, 69, 143)"
+          }
+        ],
+        "footer": [
+          {
+            "text": "Mentions légalesConfidentialitéRotary Fellowship for Diplomacy",
+            "x": 0,
+            "y": 968.5,
+            "right": 390,
+            "bottom": 1173.5,
+            "width": 390,
+            "height": 205,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "padding": "0px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(34, 43, 57)"
+          }
+        ],
+        "footerBand": [
+          {
+            "text": "Mentions légalesConfidentialité",
+            "x": 0,
+            "y": 969.5,
+            "right": 390,
+            "bottom": 1101.5,
+            "width": 390,
+            "height": 132,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "padding": "0px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 255, 255)"
+          }
+        ]
+      },
+      "screenshot": "docs/evidence/phase-1-fidelity-review/fr-390x844.png",
+      "accessibility": null,
+      "passed": true
+    },
+    {
+      "url": "http://127.0.0.1:3100/en/team",
+      "viewport": {
+        "width": 320,
+        "height": 844
+      },
+      "state": "mobile disclosure open, navigation focused",
+      "layout": {
+        "width": 320,
+        "scrollWidth": 320,
+        "header": [
+          {
+            "text": "Rotary Fellowship for DiplomacyFrançaisEnglish (current language)HomeMissionTeamPast eventsPhotosClose menuHomeMissionTeamPast eventsPhotos",
+            "x": 0,
+            "y": 0,
+            "right": 320,
+            "bottom": 503,
+            "width": 320,
+            "height": 503,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "padding": "0px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(34, 43, 57)"
+          }
+        ],
+        "container": [
+          {
+            "text": "HomeMissionTeamPast eventsPhotosClose menuHomeMissionTeamPast eventsPhotos",
+            "x": 0,
+            "y": 167,
+            "right": 320,
+            "bottom": 503,
+            "width": 320,
+            "height": 336,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "padding": "0px 16px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(34, 43, 57)"
+          }
+        ],
+        "identity": [
+          {
+            "text": "Rotary Fellowship for Diplomacy",
+            "x": 16,
+            "y": 24,
+            "right": 304,
+            "bottom": 79,
+            "width": 288,
+            "height": 55,
+            "fontSize": "20px",
+            "lineHeight": "27.5px",
+            "padding": "0px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(23, 69, 143)"
+          }
+        ],
+        "navLinks": [
+          {
+            "text": "Home",
+            "x": 16,
+            "y": 235,
+            "right": 304,
+            "bottom": 283,
+            "width": 288,
+            "height": 48,
+            "fontSize": "18px",
+            "lineHeight": "24px",
+            "padding": "12px 16px",
+            "focused": true,
+            "outline": "solid",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(0, 103, 200)"
+          },
+          {
+            "text": "Mission",
+            "x": 16,
+            "y": 287,
+            "right": 304,
+            "bottom": 335,
+            "width": 288,
+            "height": 48,
+            "fontSize": "18px",
+            "lineHeight": "24px",
+            "padding": "12px 16px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(23, 69, 143)"
+          },
+          {
+            "text": "Team",
+            "x": 16,
+            "y": 339,
+            "right": 304,
+            "bottom": 387,
+            "width": 288,
+            "height": 48,
+            "fontSize": "18px",
+            "lineHeight": "24px",
+            "padding": "12px 16px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 255, 255)"
+          },
+          {
+            "text": "Past events",
+            "x": 16,
+            "y": 391,
+            "right": 304,
+            "bottom": 439,
+            "width": 288,
+            "height": 48,
+            "fontSize": "18px",
+            "lineHeight": "24px",
+            "padding": "12px 16px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(23, 69, 143)"
+          },
+          {
+            "text": "Photos",
+            "x": 16,
+            "y": 443,
+            "right": 304,
+            "bottom": 491,
+            "width": 288,
+            "height": 48,
+            "fontSize": "18px",
+            "lineHeight": "24px",
+            "padding": "12px 16px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(23, 69, 143)"
+          }
+        ],
+        "footer": [
+          {
+            "text": "Legal noticePrivacyRotary Fellowship for Diplomacy",
+            "x": 0,
+            "y": 804.25,
+            "right": 320,
+            "bottom": 1009.25,
+            "width": 320,
+            "height": 205,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "padding": "0px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(34, 43, 57)"
+          }
+        ],
+        "footerBand": [
+          {
+            "text": "Legal noticePrivacy",
+            "x": 0,
+            "y": 805.25,
+            "right": 320,
+            "bottom": 937.25,
+            "width": 320,
+            "height": 132,
+            "fontSize": "16px",
+            "lineHeight": "24px",
+            "padding": "0px",
+            "focused": false,
+            "outline": "none",
+            "outlineWidth": "3px",
+            "outlineColor": "rgb(255, 255, 255)"
+          }
+        ]
+      },
+      "screenshot": "docs/evidence/phase-1-fidelity-review/en-team-320x844.png",
+      "accessibility": null,
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "consoleErrors": []
+}

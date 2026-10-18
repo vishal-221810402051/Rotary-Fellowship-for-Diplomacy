@@ -1,0 +1,57 @@
+{
+  "method": "Publication-safe summary of saved rendered observations; no new reference requests",
+  "referenceUrl": "https://amicalerotaryfrancophonie.org/",
+  "browser": "155.0.8059.84",
+  "initialResponseStatuses": [
+    200,
+    429,
+    429,
+    429,
+    429,
+    429
+  ],
+  "followupStatus": 200,
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "width": 390,
+      "height": 844
+    },
+    {
+      "width": 320,
+      "height": 844
+    }
+  ],
+  "desktopMeasurements": {
+    "identityRowHeight": 140,
+    "navBandHeight": 60,
+    "headerHeight": 200,
+    "containerWidth": 1320,
+    "containerInnerPadding": 16,
+    "footerUpperBandHeight": 132,
+    "navFontSize": 20,
+    "navLineHeight": 24
+  },
+  "failedRequestCount": 47,
+  "failedFontFamilies": [
+    "Open Sans",
+    "Venturis Sans ADF",
+    "Venturis Sans ADF No2"
+  ],
+  "mobileMenuResult": "Never became visible at 768/390/320 after click within 5000ms; intended behaviour unknown",
+  "rootCause": "Not established: saved records lack resource status/timing/initiator evidence",
+  "manualCaptureOrBehaviourEvidenceReceived": false,
+  "exactTypographyAndMenuEquivalence": "UNVERIFIED; owner accepted tested local choices provisionally under D-024",
+  "excluded": "Reference screenshots, resource request URLs, access-failure screens and raw runtime logs remain local",
+  "sourceSha256": {
+    "docs/evidence/phase-1-browser/reference/results.json": "87b24984400c8450d1d2c97bd699e7ec189fc57587608843487d0c3442ad024c",
+    "docs/evidence/phase-1-browser/reference/followup-results.json": "3a9a6d87f1df2774033c7a0de21b76aa77779b4f0d4b04a337ca7be61a29a277"
+  }
+}
