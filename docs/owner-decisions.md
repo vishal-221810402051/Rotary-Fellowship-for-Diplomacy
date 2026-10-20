@@ -30,3 +30,11 @@ The reference fallback has been exercised: [availability evidence](evidence/refe
 ## Subsequent owner decision: Phase 2 checkpoint
 
 **D-027 / S-18, 20 October 2026:** explicitly authorize reviewing all Phase 2 changes, safe staging, the named commit and normal push of `main` to the supplied GitHub origin, with remote SHA verification. Preserve local-only evidence, unrelated work and historical audit failures. This supersedes earlier no-commit/no-push restrictions only; Phase 3 and deployment remain unauthorized. D-024 and publication dependencies are unchanged. [Checkpoint scope and evidence policy](phase-2-github-checkpoint.md).
+
+## Subsequent owner decision: focused header branding
+
+**D-028 / S-19, 20 October 2026:** use the supplied `src/components/media/logo.jpeg` for the header only, with bridge on the left and exact bold left-aligned lines "Rotary Fellowship" / "for Diplomacy" on the right in both locales. Preserve image proportions/meaningful pixels, current locale home destination, one accessible name, responsive controls and D-024. Verify the four requested widths with actual captures. The owner authorizes this input/use, not an independently established trademark-rights finding. Preserve the generated declaration; no Phase 3, stage, commit, push or deployment. [Implementation and verification](header-branding-update.md).
+
+## Subsequent owner decision: branding checkpoint and preview
+
+**D-029 / S-20, 20 October 2026:** explicitly authorize the focused branding commit/push and original local preview refresh, with safe remote-history checks, exact remote SHA verification and both locale URLs checked. Preserve the unrelated generated declaration and local-only evidence; stop only the identified project server if needed. This supersedes D-028 staging/commit/push restrictions for this checkpoint only. No deployment or Phase 3. [Checkpoint review](header-branding-checkpoint.md).

@@ -25,7 +25,7 @@ def staged_json(name):
 
 
 omitted = {}
-for name in ['docs/evidence/public/omissions.json', 'docs/evidence/public/phase-2-omissions.json']:
+for name in ['docs/evidence/public/omissions.json', 'docs/evidence/public/phase-2-omissions.json', 'docs/evidence/public/header-branding-omissions.json']:
     if name not in tracked:
         continue
     for entry in staged_json(name)['omitted']:
@@ -34,9 +34,12 @@ for name in ['docs/evidence/public/omissions.json', 'docs/evidence/public/phase-
         omitted[entry['path']] = entry
 
 phase_2_summary = 'docs/evidence/public/phase-2-verification-summary.json'
+branding_summary = 'docs/evidence/public/header-branding-verification-summary.json'
 fixture_hashes = staged_json(phase_2_summary)['reviewedFixtureSha256'] if phase_2_summary in tracked else {}
 # Only these two visually reviewed, nonphotographic test charts are eligible.
 allowed_fixtures = {'tests/fixtures/media/landscape.png', 'tests/fixtures/media/portrait.png'}
+asset_hashes = staged_json(branding_summary)['reviewedAssetSha256'] if branding_summary in tracked else {}
+allowed_assets = {'src/components/media/logo.jpeg'}
 patterns = {
     'private_key': r'-----BEGIN (?:[A-Z ]+ )?PRIVATE KEY-----',
     'github_token': r'\b(?:gh[pousr]_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{30,})',
@@ -55,7 +58,8 @@ for name in names:
     data = git('show', ':' + name).stdout
     if path.suffix.lower() in {'.png', '.jpg', '.jpeg', '.webp'}:
         reviewed_fixture = name in allowed_fixtures and hashlib.sha256(data).hexdigest() == fixture_hashes.get(name)
-        if not name.startswith('docs/evidence/phase-1-fidelity-review/') and not reviewed_fixture:
+        reviewed_asset = name in allowed_assets and hashlib.sha256(data).hexdigest() == asset_hashes.get(name)
+        if not name.startswith('docs/evidence/phase-1-fidelity-review/') and not reviewed_fixture and not reviewed_asset:
             issues.append({'file': name, 'rule': 'unreviewed_image'})
         continue
     text = data.decode('utf-8-sig')
@@ -83,20 +87,28 @@ for name in names:
         issues.append({'file': name, 'rule': 'unrecorded_missing_link', 'target': relative})
 
 checked_evidence = 0
-for summary_name in ['docs/evidence/public/verification-summary.json', phase_2_summary]:
+# Summaries retain historical input hashes. The latest verified input claim for
+# each file is checked against the index; old summaries remain immutable records.
+latest_sources = {}
+for summary_name in ['docs/evidence/public/verification-summary.json', phase_2_summary, branding_summary]:
     if summary_name not in tracked:
         continue
     for name, digest in staged_json(summary_name)['sourceSha256'].items():
         if name not in tracked:
-            if summary_name == phase_2_summary:
+            if summary_name != 'docs/evidence/public/verification-summary.json':
                 issues.append({'file': name, 'rule': 'missing_verified_source'})
             continue  # Phase 1 raw originals are declared in the omission inventory.
-        checked_evidence += 1
-        if hashlib.sha256(git('show', ':' + name).stdout).hexdigest() != digest:
-            issues.append({'file': name, 'rule': 'published_source_hash_mismatch'})
+        latest_sources[name] = digest
+for name, digest in latest_sources.items():
+    checked_evidence += 1
+    if hashlib.sha256(git('show', ':' + name).stdout).hexdigest() != digest:
+        issues.append({'file': name, 'rule': 'published_source_hash_mismatch'})
 for name, digest in fixture_hashes.items():
     if name not in allowed_fixtures or name not in tracked or hashlib.sha256(git('show', ':' + name).stdout).hexdigest() != digest:
         issues.append({'file': name, 'rule': 'reviewed_fixture_hash_mismatch'})
+for name, digest in asset_hashes.items():
+    if name not in allowed_assets or name not in tracked or hashlib.sha256(git('show', ':' + name).stdout).hexdigest() != digest:
+        issues.append({'file': name, 'rule': 'reviewed_asset_hash_mismatch'})
 whitespace = git('diff', '--cached', '--check')
 if whitespace.returncode:
     issues.append({'rule': 'git_diff_check', 'detail': whitespace.stdout.decode().strip()})

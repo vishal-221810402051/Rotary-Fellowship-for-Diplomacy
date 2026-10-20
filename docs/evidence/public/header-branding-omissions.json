@@ -1,0 +1,247 @@
+{
+  "date": "2026-10-20",
+  "scope": "Additional branding implementation/checkpoint evidence; earlier inventories unchanged",
+  "policy": "Raw captures/logs/diagnostic source remain local and ignored. Historical Markdown links to inventoried paths are intentional local-only references. Later checkpoint review/preview/push receipts in the same ignored directory also stay local-only.",
+  "omitted": [
+    {
+      "path": "docs/evidence/header-branding-20261020/aspect-ratio-diagnostic.json",
+      "sha256": "6040dbe449004d02567cb5819328fe516d6bfdc0952076972854fb46aa473a1c",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-branding-20261020/aspect-ratio-diagnostic.png",
+      "sha256": "01c9e9c9a5d662f8b4edde88292f67789b6a52a6232e1c173f06a461382ee32c",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-branding-20261020/attempt1-browser/results.json",
+      "sha256": "8c61b01c9b74a672d8127a4ad077436ec51a15e53330df78506e36db1880bd60",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-branding-20261020/attempt1-command.json",
+      "sha256": "d868a55f17c5251dc30a28bfd240a4bcdde04be3648e53768522d1c5b1984629",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-branding-20261020/attempt2-browser/results.json",
+      "sha256": "782a4f8b66ed78e3f605718c7a2336670e1f7b81bbda628d3cde5b76dff37ef2",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-branding-20261020/attempt2-command.json",
+      "sha256": "c239aa5693857b3e12c2f90ecbf887b52aa03b57bda98624de46afb67dbb4973",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-branding-20261020/attempt3-browser/results.json",
+      "sha256": "b9c12a706ee356ca56a6dc93698e643a7dc6ac4d61db23c3fb0eb3f542cce722",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-branding-20261020/attempt3-command.json",
+      "sha256": "932193ba22e27df8f0828b337966d34b8c923d028ff72f58fa63955fc04addd0",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-branding-20261020/baseline.json",
+      "sha256": "ec765aa7cb7ca32b4df5e8975fea6f5b5da5c938ac32a0d3b46e51200aabe38c",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-branding-20261020/browser/en-1440.png",
+      "sha256": "0b38d1e51b263c5b0944c6e95fc55a8ef9ed1c5fb3464d4ccb098ea097162d0a",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-branding-20261020/browser/en-320-focus.png",
+      "sha256": "90861f9557ff1eca5c628f02c9aceb6ea70262a29461358aebc2949500e3de43",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-branding-20261020/browser/en-320.png",
+      "sha256": "eae7668c59fd1b89b8fa0855c0fbf6efc8ba218a4edf4a11161af6c7ddc03c05",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-branding-20261020/browser/en-390.png",
+      "sha256": "9c336cf2fbb33bdeee064d8aad46fa223f0074bafe1034756bbae1a81b5a3aad",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-branding-20261020/browser/en-768.png",
+      "sha256": "2e9c0d2f363c81960477ee02789038703bc4c8f1a7b84ec3170de67a0ca84b17",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-branding-20261020/browser/fr-1440-focus.png",
+      "sha256": "59b64c37c3df9f672a1f60a322208c1af499e94f5651f76a448581ceec61b8c0",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-branding-20261020/browser/fr-1440.png",
+      "sha256": "c690543f72cdf7a941b65ba18106671f479f0666b4e1b0feb76e6cf59dacbbbe",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-branding-20261020/browser/fr-320.png",
+      "sha256": "f8a5da3a067aba454cd5739931579de925543ee3ddc8972b865ada6dd224228e",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-branding-20261020/browser/fr-390.png",
+      "sha256": "3d3e6e5f62c9b1a4d2538c32ae8dd7df0c2c8f8c46ca2c08ed1732ac5c08b8bb",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-branding-20261020/browser/fr-768.png",
+      "sha256": "9d65f499bc57f20f7a0c5cc453db8709083b1955ee7bbd880abcefe9d6da0288",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-branding-20261020/browser/results.json",
+      "sha256": "62a696202658eb343404ae23b8bfe4ac3ed5e4bee65b3014e3236f04802e2160",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-branding-20261020/browser-command.json",
+      "sha256": "773f4c87461842a1b1cc0f97672eb834ba39be9075ccf079401e1b52482af574",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-branding-20261020/build-before-explicit-ratio.json",
+      "sha256": "d8184dcd0610d962308d52660e2efc3dfd883ff8fabf55342d9136c657a80400",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-branding-20261020/build-before-label-fix.json",
+      "sha256": "d3162c1d8ef9837a01210bd59949f946b40839e17e7388d8ebc86893fa21b2ab",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-branding-20261020/build.json",
+      "sha256": "c42e9481045248a8b5bdc98338a9326f8059e156ecefd040be554bafbcabae4b",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-branding-20261020/final-review.json",
+      "sha256": "61b931949915b6b8e94bdafaeb29635727c6ae71f2a2664d885d4f4a9bff6f1f",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-branding-20261020/header-before-label-fix.tsx",
+      "sha256": "624d998ad39c7eb3f84155122868a56cfbfc76955cc6864f85ebc21def7df38c",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-branding-20261020/lint-before-explicit-ratio.json",
+      "sha256": "4ecf0ec125b62f6c384d483252005511dc3c7e0bebc1a402aeb4b52b17970cb0",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-branding-20261020/lint-before-label-fix.json",
+      "sha256": "02ce7a2d845ef9b6d558517ccb7066a8cc3ed067592907ccd49e3547416812d4",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-branding-20261020/lint-before-verifier-correction.json",
+      "sha256": "f9a20bc57552a39e9c3d3b1be9c89794db2d05ae31289c0f9960103cf451ae55",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-branding-20261020/lint.json",
+      "sha256": "79270753504603e97dec1198b746533bd6e04e083b3ba345d28b7c54880c4436",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-branding-20261020/navigation.json",
+      "sha256": "3d99abccd67c48c98825614de4882d2a4b35599a1e2375bd8d18101181c4f2c0",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-branding-20261020/run.py",
+      "sha256": "ae734883b3b5c92bad84dd9477be7d9eeb8c58013b2744f1a75ce1f27111e385",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-branding-20261020/setup.json",
+      "sha256": "f1fec03b1f296c930ec87865d2343ba766188dd1113bb85bf6fc7f68f7aac27b",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-branding-20261020/source-identity.json",
+      "sha256": "cd6fe046f178071ae4f73278c2e78ca8aff1f4df436bd48672caf4b6bdd80b5b",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-branding-20261020/typecheck-before-explicit-ratio.json",
+      "sha256": "cb753e353c54de7f4a5b5058d6b21624624f3f2d027513495c17a5fc14d79866",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-branding-20261020/typecheck-before-label-fix.json",
+      "sha256": "a7c5ecca0382d4fde00128ace775ce0f2ae4b408a60aa5d7d0c446bb3289c651",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-branding-20261020/typecheck-before-verifier-correction.json",
+      "sha256": "51bba604e3afacec30a106e89e0c47c0a4bf03f4054b4dea3c4852ab08762ad5",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-branding-20261020/typecheck.json",
+      "sha256": "3659e1b9847e5a747fc2ae0706ac56d38b848b6958522294b4653b54983d2650",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-branding-20261020/verifier-attempt1.ts",
+      "sha256": "b2c43ed15381d409c6d516bdfb2f9f3e0b0b8a3b5da371229ea51b365ca5dea9",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/header-checkpoint-20261020/baseline.json",
+      "sha256": "151ef02d4fbe6c704f19aee5bd301672b8235fb9099a8c62c4a9e4d9919d9fb3",
+      "reason": "Locally retained raw verification/failure/screenshot or checkpoint bookkeeping; sanitized outcomes published separately, no raw content reviewed for publication.",
+      "retainedLocally": true
+    }
+  ]
+}

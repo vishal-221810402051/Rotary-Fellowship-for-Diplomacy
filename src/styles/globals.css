@@ -20,7 +20,47 @@ body { margin: 0; background: white; color: var(--color-ink); font-family: var(-
 :focus-visible { outline: 3px solid var(--color-brand); outline-offset: 4px; }
 button, a { touch-action: manipulation; }
 button { cursor: pointer; }
-.site-identity { overflow-wrap: anywhere; }
+.site-identity {
+  display: inline-flex;
+  max-width: 100%;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 0.75rem;
+  color: #3b5063;
+}
+.site-identity-title { font-size: 1.25rem; font-weight: 700; line-height: 1.12; }
+.site-identity-title > span { display: block; white-space: nowrap; }
+.site-identity-symbol {
+  position: relative;
+  display: block;
+  width: 5.5rem;
+  aspect-ratio: 710 / 190;
+  flex: none;
+  overflow: hidden;
+}
+/* Original 774x542 JPEG is unchanged. This window excludes only blank margins:
+   source x=40..750, y=176..366; the complete bridge is x=55..736, y=193..345. */
+.site-identity-symbol img {
+  position: absolute;
+  top: 50%;
+  left: -5.633803%;
+  width: 109.014085%;
+  max-width: none;
+  height: auto;
+  aspect-ratio: 774 / 542;
+  object-fit: contain;
+  transform: translateY(-50%);
+}
+@media (min-width: 40rem) {
+  .site-identity { gap: 1rem; }
+  .site-identity-title { font-size: 1.75rem; }
+  .site-identity-symbol { width: 7.5rem; }
+}
+@media (min-width: 64rem) {
+  .site-identity { gap: 1.25rem; }
+  .site-identity-title { font-size: 2rem; }
+  .site-identity-symbol { width: 9rem; }
+}
 .navigation-band { background: white; }
 .footer-band { background: linear-gradient(90deg in srgb, var(--color-brand), var(--color-brand-deep)); }
 .footer-band :focus-visible { outline-color: white; }

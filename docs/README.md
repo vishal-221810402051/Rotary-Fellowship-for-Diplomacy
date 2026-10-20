@@ -3,12 +3,16 @@
 **Working folder:** `C:\Users\visha\Desktop\International Diplomatic Project\website\rffd`
 
 **Date:** 20 October 2026 (Europe/Paris)
-**Status:** **Phase 2 implementation complete after AUD-01/AUD-02 fixes; approved content/publication readiness pending.** [Resolution record](phase-2-audit-resolution.md): 27 tests, 20 targeted rendered homepage/gallery states and 20 new axe scans pass, plus required type/lint/build and four affected-route checks. The broader [independent audit](phase-2-independent-audit.md) remains unchanged; its original findings are addressed by an implementation follow-up, not an independent re-audit. [Current report](phase-2-report.md) retains historical evidence. D-024/reference differences remain UNVERIFIED. Phase 3 awaits instruction. D-027 now authorizes only the [Phase 2 GitHub checkpoint](phase-2-github-checkpoint.md); no deployment.
+**Current focused update:** D-028 branding implementation is complete after the Phase 2 checkpoint `18992c062022e1caa0ed94c7e273655b4389bd12`. [Change and verification](header-branding-update.md). D-029 authorizes only the [branding checkpoint and original preview refresh](header-branding-checkpoint.md); no Phase 3 or deployment.
+
+**Phase 2 status:** **Phase 2 implementation complete after AUD-01/AUD-02 fixes; approved content/publication readiness pending.** [Resolution record](phase-2-audit-resolution.md): 27 tests, 20 targeted rendered homepage/gallery states and 20 new axe scans pass, plus required type/lint/build and four affected-route checks. The broader [independent audit](phase-2-independent-audit.md) remains unchanged; its original findings are addressed by an implementation follow-up, not an independent re-audit. [Current report](phase-2-report.md) retains historical evidence. D-024/reference differences remain UNVERIFIED. Phase 3 awaits instruction. D-027 now authorizes only the [Phase 2 GitHub checkpoint](phase-2-github-checkpoint.md); no deployment.
 
 | Document | Purpose |
 | --- | --- |
 | [Standing instructions](standing-instructions.md) | Original user rules, preserved verbatim. |
 | [Phase 2 instructions](phase-2-instructions.md) | Verbatim current owner authorization, source-backed drafts, two supplied archive titles and Phase 2-only boundary. |
+| [Header branding checkpoint](header-branding-checkpoint.md) | D-029 safe publication, sanitized verification summary, local-only omissions and original preview identification. |
+| [Focused header branding](header-branding-update.md) | D-028 supplied logo, two-line identity, source preservation and targeted responsive/navigation evidence; no Phase 3. |
 | [Phase 2 report](phase-2-report.md) | Implemented pages, actual checks, defects/limits, acceptance versus publication dependencies and Phase 3 readiness. |
 | [Audit resolution](phase-2-audit-resolution.md) | AUD-01/AUD-02 causes/fixes, bilingual regressions, actual rendered follow-up, evidence preservation and current acceptance. |
 | [Phase 2 evidence guide](phase-2-evidence.md) | Local screenshot/scan manifests, reproduction, isolated test charts, cleanup and reviewed visual samples. |

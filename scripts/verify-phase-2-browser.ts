@@ -71,7 +71,7 @@ try {
             landmarks: [document.querySelectorAll("header").length, document.querySelectorAll("main").length, document.querySelectorAll("footer").length],
             headings: Array.from(document.querySelectorAll("main h1, main h2, main h3")).map((element) => ({ level: Number(element.tagName.slice(1)), text: element.textContent })),
             overflowing: Array.from(document.querySelectorAll("main p, main h1, main h2, main h3, main a")).filter((element) => element.scrollWidth > element.clientWidth + 1).map((element) => element.textContent),
-            identity: document.querySelector<HTMLElement>(".site-identity")!.innerText,
+            identity: document.querySelector<HTMLElement>(".site-identity")!.innerText.replace(/\s+/g, " ").trim(),
             brokenImages: Array.from(document.images).filter((image) => !image.complete || !image.naturalWidth).length,
           }));
           measurements.push({ url: page.url(), viewport, ...geometry });

@@ -1,0 +1,184 @@
+{
+  "date": "2026-10-20",
+  "scope": "D-029 focused branding checkpoint; no Phase 3 or deployment",
+  "baselineCommit": "18992c062022e1caa0ed94c7e273655b4389bd12",
+  "evidencePolicy": "Reused passing isolated production checks, current inputs hash-matched. No unchanged application suite rerun for checkpoint. Original raw logs/screenshots/failed attempts remain local-only.",
+  "sourceHashConvention": "SHA-256 of checked current source with normal Git LF text normalization; original binary JPEG unchanged. Latest verified claims supersede earlier snapshot claims only for these files.",
+  "sourceSha256": {
+    "src/proxy.ts": "dd3670e22c7e778cb9da3ac097269bbf0210600398b6d58432b44d5b4fc8deda",
+    "src/app/robots.ts": "80aaa63a9ea2d0fca533a6bad9cfeaebbbc7a2b663d185831f20e2cdc197f774",
+    "src/content/presentation.ts": "50c4369e731d7fac0d87d10112576710ec5e58cc12dc9381f08ad8067a5f77a3",
+    "src/content/provenance.ts": "3b99cbe8be6f36e5e9dc7f86d7fd2c3a2abfa97e636da4386ebb52ac004f17a5",
+    "src/content/site.ts": "ef7429c18c175592f54619b6de5683c00ed4d2ded73dfe8fdfdb621b84f0a883",
+    "src/content/types.ts": "494935c5631515c8600bf27a882c4231786cb3ad8b28a6d9b0d7e12dde628e57",
+    "src/i18n/dictionaries.ts": "cc5c0c045d9cce73184fb51f719b3dd379ceb8e04696ee67a321a95d2d8d64c4",
+    "src/i18n/dictionary-types.ts": "e8fe27fc4ac7b9a97c936853d675da8a049be48ffcf3a0a99623ab3ef430f5cc",
+    "src/i18n/locales.ts": "8a8b056712c1171e3933773c721cc918d2a4ae27421588185ce150e80426c040",
+    "src/i18n/routes.ts": "285b721a51d8a077c00af2eefabdaccb50ed51d48b25967007df1807c2247e61",
+    "src/lib/not-found-document.ts": "53e4ce231c9a6222d729a1ec3091f55ea7d662249985d54c19b6e48c457d0b52",
+    "src/styles/globals.css": "098b73b5a237cbf742e77cbe19fc013012d31569a65a289c242d0afef0419f0b",
+    "src/app/[locale]/layout.tsx": "d80d8f5a68d5cee99d87adf6dda200cccfb5725a7b8cacad9eb051300b1984e2",
+    "src/app/[locale]/not-found.tsx": "306d770b2d9fdc6e412e2e11132617dd12a37130f1fc29c8f37fbfe63465e5dd",
+    "src/app/[locale]/[[...segments]]/page.tsx": "942678f52832ad8d12110362925c6a81495714f60b35f8e56f3d3641be41ced7",
+    "src/components/content/home-page.tsx": "39aeb867389c5e737396b0231dc7e533de04e5f1a0f5e0de20fd7b9fa8d63aca",
+    "src/components/content/page-intro.tsx": "350a204088af0ede6c21a8574d48b358917854236db360ba7c6bba9fbe4ff52e",
+    "src/components/content/page-shell.tsx": "bf146d5bb55cd93219163c4e7dfc6a0ec00414e84ed6599b3b4dbe0ea49dc427",
+    "src/components/events/event-archive.tsx": "8045f9e654f0d2ffe3e7b47ea22ee738d7c9bdef2af55335081a68df038b54de",
+    "src/components/layout/locale-context.tsx": "30b7cf163e4f4ac6c0aea229259dbb8f1b8c46b0e696fa79fad5b61020173569",
+    "src/components/layout/route-focus.tsx": "3036e8ad5feb6eb70fb929b01da392484add8ceb24a9f4101484e4080afa63b6",
+    "src/components/layout/site-footer.tsx": "9d461f3dc914bdff5c49904ee6fe34cca8a33c9f66732c1cacbd02175d4fa389",
+    "src/components/layout/site-header.tsx": "7e4a07cd8177a326e6c55b534fb7a407071dd0f271e9823e3d86d7483a188531",
+    "src/components/layout/site-shell.tsx": "dc269218c456c17b64c3f50c640da24aa8f7486b3f92f15aa442d4169adcba3b",
+    "src/components/media/logo.jpeg": "27ab24df62c1b5c7181ac43c6e466f268e1924efcd11df63d3f2d55719c41026",
+    "src/components/media/photo-figure.tsx": "3c26a66b83c75fb0077ad283b00a500992f769cec968453aa6f8e26f6818e0a1",
+    "src/components/media/photo-gallery.tsx": "13626fb41ab5f2b8a47282e01f23fbf4d5b852db17205555b9f2f353b1b06169",
+    "src/components/navigation/language-switch.tsx": "b4d842ac2f181d8bfe61b4a3bfa517012c8e786d0e76ae4acb4b1d0d189326dc",
+    "src/components/navigation/site-navigation.tsx": "ff0315481cb7a53f7b66e9e961d9274cb350a8503194cc526371715fa987e6db",
+    "src/components/people/team-profiles.tsx": "1f8113f2b8bc181470188c5f724dd0947f830b60c346f4681fb8a3161222d308",
+    "src/content/en/pages.ts": "f69363d3ceeb81514d78ef0c05a166235ee665c2ee64ffe76888182eed41f1a4",
+    "src/content/fr/pages.ts": "f60a84a8d7e192bb74b4fcb3863db3d537726c846a5b14e38407ed0d9241ac13",
+    "src/i18n/dictionaries/en.ts": "ae8c820eb9a0c208b59a05a5a54097911157f093cbac865e951a130a09b05a29",
+    "src/i18n/dictionaries/fr.ts": "37bd6d4271bb9ce883712cfb15d65b300c119b968a04a2c36c370740ae7157b9",
+    "scripts/verify-header-branding.ts": "fc1dd90a5a42c50602fb9e63055d5843ecb85ff09e2881bfdbfb2d58b32980f8",
+    "scripts/verify-phase-2-browser.ts": "b7cef46a39b11dc8080ae647fddd70826f2c214e1e29f632381ff031e7b4497d",
+    "package.json": "554451fc6ed1cbcc1062438375b506933ae245525431c7beb8c6cf5dbe1fd52e",
+    "package-lock.json": "2e22a0d16cb955a06f72203a076a04b8429a83791b697fd44d76ab241c62bd57",
+    "tsconfig.json": "b3362b7895bf2aef239566470f5b0a1abe7423cf978feb03bcbb4f30a10c501b",
+    "next.config.ts": "2e7d4a71f0b70cb137f8537cc2b4fa45b501d5fbfe22309f2ee587aab51dfaee",
+    "eslint.config.mjs": "cbe930fd9dfab9ba854287b7794ab5e1a2bff30a93bcdbf35a1eb6852c3aeb4a",
+    "postcss.config.mjs": "f8ed6853d2d91797f125edbb2af4052bd0adc52ba638d0de65d696a62d1ad3f7"
+  },
+  "reviewedAssetSha256": {
+    "src/components/media/logo.jpeg": "27ab24df62c1b5c7181ac43c6e466f268e1924efcd11df63d3f2d55719c41026"
+  },
+  "asset": {
+    "source": "Owner-provided and explicitly authorized for header use/checkpoint under D-028/D-029",
+    "path": "src/components/media/logo.jpeg",
+    "width": 774,
+    "height": 542,
+    "composition": "Bridge symbol only; visible wordmark is real HTML in exactly two lines",
+    "exif": false,
+    "originalUnchanged": true,
+    "chosenTextColor": "#3b5063",
+    "typeface": "Arial bold, existing system stack",
+    "rights": "No independent trademark/brand-rights verification claimed"
+  },
+  "reusedCommands": [
+    {
+      "name": "typecheck",
+      "command": "npm.cmd run typecheck",
+      "exitCode": 0,
+      "startedUtc": "2026-10-20T14:37:46.016501+00:00",
+      "endedUtc": "2026-10-20T14:37:47.775594+00:00",
+      "rawLocalEvidence": "docs/evidence/header-branding-20261020/typecheck.json",
+      "sha256": "3659e1b9847e5a747fc2ae0706ac56d38b848b6958522294b4653b54983d2650"
+    },
+    {
+      "name": "lint",
+      "command": "npm.cmd run lint",
+      "exitCode": 0,
+      "startedUtc": "2026-10-20T14:37:46.017503+00:00",
+      "endedUtc": "2026-10-20T14:37:47.896452+00:00",
+      "rawLocalEvidence": "docs/evidence/header-branding-20261020/lint.json",
+      "sha256": "79270753504603e97dec1198b746533bd6e04e083b3ba345d28b7c54880c4436"
+    },
+    {
+      "name": "build",
+      "command": "npm.cmd run build",
+      "exitCode": 0,
+      "startedUtc": "2026-10-20T14:37:48.099248+00:00",
+      "endedUtc": "2026-10-20T14:37:51.952411+00:00",
+      "rawLocalEvidence": "docs/evidence/header-branding-20261020/build.json",
+      "sha256": "c42e9481045248a8b5bdc98338a9326f8059e156ecefd040be554bafbcabae4b"
+    },
+    {
+      "name": "navigation",
+      "command": "node node_modules/tsx/dist/cli.mjs --test tests/navigation.test.tsx tests/routing.test.ts",
+      "exitCode": 0,
+      "startedUtc": "2026-10-20T14:31:18.819626+00:00",
+      "endedUtc": "2026-10-20T14:31:20.528270+00:00",
+      "rawLocalEvidence": "docs/evidence/header-branding-20261020/navigation.json",
+      "sha256": "3d99abccd67c48c98825614de4882d2a4b35599a1e2375bd8d18101181c4f2c0"
+    },
+    {
+      "name": "browser-command",
+      "command": "node node_modules/tsx/dist/cli.mjs scripts/verify-header-branding.ts",
+      "exitCode": 0,
+      "startedUtc": "2026-10-20T14:38:21.211797+00:00",
+      "endedUtc": "2026-10-20T14:38:27.285084+00:00",
+      "rawLocalEvidence": "docs/evidence/header-branding-20261020/browser-command.json",
+      "sha256": "773f4c87461842a1b1cc0f97672eb834ba39be9075ccf079401e1b52482af574"
+    }
+  ],
+  "results": {
+    "navigationRoutingTests": 8,
+    "testFailures": 0,
+    "testSkipped": 0,
+    "browser": "155.0.8059.85",
+    "bilingualStates": 8,
+    "locales": [
+      "fr",
+      "en"
+    ],
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 900
+      },
+      {
+        "width": 768,
+        "height": 1024
+      },
+      {
+        "width": 390,
+        "height": 844
+      },
+      {
+        "width": 320,
+        "height": 844
+      }
+    ],
+    "headerAxeScans": 8,
+    "axeViolations": 0,
+    "axeIncompleteRules": 2,
+    "reviewedGradientContrastNodes": 8,
+    "minimumReviewedContrast": 5.511005384793061,
+    "imageRequests": 8,
+    "imageStatuses": [
+      200
+    ],
+    "consoleErrors": 0,
+    "layoutOverflowOrOverlap": false,
+    "fullBridgeVisible": true,
+    "exactTwoLineTitle": true,
+    "singleAccessibleName": "Rotary Fellowship for Diplomacy",
+    "homepageKeyboardNavigation": true,
+    "languageSwitchPreservesEquivalentPage": true,
+    "visibleKeyboardFocus": true,
+    "mobileEscapeAndCloseAfterNavigation": true
+  },
+  "browserEvidence": {
+    "localOnlyPath": "docs/evidence/header-branding-20261020/browser/results.json",
+    "sha256": "62a696202658eb343404ae23b8bfe4ac3ed5e4bee65b3014e3236f04802e2160",
+    "capturedHeaderScreenshots": 10,
+    "screenshotsPublished": false,
+    "limits": "Bounded Chrome/header developer verification, with reviewed gradient incompletes; not full WCAG certification, client visual approval or external-reference equivalence."
+  },
+  "sourceIdentityEvidence": {
+    "localOnlyPath": "docs/evidence/header-branding-20261020/source-identity.json",
+    "sha256": "cd6fe046f178071ae4f73278c2e78ca8aff1f4df436bd48672caf4b6bdd80b5b",
+    "inputsMatched": 42
+  },
+  "preservation": {
+    "unrelatedGeneratedNextEnv": "Preserved untouched and unstaged; not covered by current branding source claims",
+    "historicalEvidence": "Unchanged; previous summaries retain historical hashes",
+    "phase2SourceAndContent": "No additional implementation change during checkpoint",
+    "gitignore": "Unchanged; no force-added ignored files"
+  },
+  "previewRefresh": "Original project dev server identified on localhost:3101; actual refresh verification is reported after push, not inferred from earlier isolated localhost:3113 results.",
+  "limits": [
+    "No separate visual-reference attachment was available for the branding implementation",
+    "D-024 remains unchanged; exact external-reference equivalence is UNVERIFIED",
+    "Editorial/real-media/profile/brand rights, final legal/privacy text and production readiness remain pending"
+  ]
+}
