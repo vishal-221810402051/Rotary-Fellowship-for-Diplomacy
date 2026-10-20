@@ -7,5 +7,5 @@ export default defineConfig([
   js.configs.recommended,
   ...typescript.configs.recommended,
   hooks.configs.flat.recommended,
-  globalIgnores([".next/**", "out/**", "coverage/**", "next-env.d.ts"]),
+  globalIgnores([".next/**", "out/**", "coverage/**", "docs/evidence/**", "next-env.d.ts"]),
 ]);

@@ -16,4 +16,5 @@ export function proxy(request: NextRequest) {
   });
 }
 
-export const config = { matcher: ["/((?!_next/|robots\\.txt$).*)"] };
+// Public media is handled by Next's static-file/404 handling, not page routing.
+export const config = { matcher: ["/((?!_next/|media/|robots\\.txt$).*)"] };

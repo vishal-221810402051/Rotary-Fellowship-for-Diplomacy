@@ -1,6 +1,6 @@
 # Architecture blueprint — owner-approved stack
 
-**Owner-selected stack: Next.js App Router, TypeScript and Tailwind CSS, compatible with Vercel (D-012).** The owner subsequently authorized Phase 1 foundation implementation; see [the request](phase-1-instructions.md), [actual implementation](phase-1-implementation.md) and [Phase 1 report](phase-1-report.md). This remains distinct from a PDF mandate or a completed Part A site. The retained [Phase 0 report](phase-0-report.md) describes its historical documentation-only state.
+**Owner-selected stack: Next.js App Router, TypeScript and Tailwind CSS, compatible with Vercel (D-012).** Phase 1 foundation is closed/checkpointed; Phase 2 pages/content/media implemented under [D-026](phase-2-instructions.md), with [verification and publication limits](phase-2-report.md). This is distinct from a PDF stack mandate or approved publication content. The [Phase 0 report](phase-0-report.md) preserves the historical documentation-only state.
 
 ## Selected foundation and implementation choices
 
@@ -10,9 +10,9 @@ Recommend normal Next.js deployment on **Vercel**, with static generation of kno
 
 Do not mandate `output: 'export'`: static prerendering on Vercel is sufficient, while full export imposes constraints such as image-loader and server-feature limitations. Consider export only if portable static hosting becomes a requirement. See [static export guidance](https://nextjs.org/docs/app/guides/static-exports). Framework choice is now settled by D-012; this remaining hosting/build-mode choice does not authorize later services.
 
-## Proposed file and component boundaries
+## Retained planning blueprint
 
-This retained tree is the full Part A blueprint, not a claim that all paths/features have been implemented. Phase 1's actual subset and typed missing-content slots are listed in [the implementation record](phase-1-implementation.md); content records, event-detail experiences, albums and production sitemap remain later work:
+This tree preserves the earlier proposal, not actual paths or promises to build optional details. The actual Phase 2 boundaries below supersede its JSON/detail/media-manifest proposals. Production sitemap remains later work with a verified origin:
 
 ```text
 src/
@@ -43,7 +43,17 @@ docs/                             # requirements, decisions and validation evide
 
 The localized catch-all is a proposed implementation option for translated segments (`equipe`/`team`, `evenements`/`events`), backed by an explicit route registry and exhaustive static params; unknown combinations return 404. In Phase 1 choose this or explicit route folders after verifying actual framework behaviour, without changing the public route map. Never generate pages from arbitrary unvalidated paths. This avoids claiming `app/[locale]/team` alone can produce translated French segments.
 
-Prefer server-rendered components. Phase 1 client boundaries are the mobile disclosure and locale context/error output; structured factual data does not enter a speculative client store. No additional animation, UI-theme, i18n-runtime or lightbox package has been added. Final tokens/menu geometry must await B-01; source declarations are provisional inputs, not rendered verification. A modest non-modal mobile disclosure is an explicitly recorded Phase 1 choice, not observed reference drawer behaviour.
+Prefer server-rendered components. Phase 1 client boundaries remain the mobile disclosure, route focus and locale context/error output. Phase 2 adds no client component, service, animation/i18n/lightbox dependency or client data store. D-024 accepts tested typography/nonmodal navigation provisionally; exact reference equivalence remains UNVERIFIED and no longer blocks closure.
+
+## Actual Phase 2 implementation
+
+`src/app/[locale]/[[...segments]]/page.tsx` still prerenders the 14 allowlisted locale/page pairs. `PageShell` selects `HomePage`, mission sections, `TeamProfiles`, `EventArchive`, `PhotoGallery` or legal/privacy paragraphs/missing states inside the unchanged `SiteShell`. `PageIntro` and `EmptyState` share presentation. Home links all four areas and uses the same record/component sources as their pages. No event detail routes, separate album URLs or lightbox are justified by current material.
+
+Data flow: typed `src/content/{fr,en}/pages.ts` editorial drafts → localized slots in `src/content/site.ts` → server-rendered page/preview components. Paired records use stable IDs and typed FR/EN fields (`src/content/types.ts`); interface dictionaries remain separate. `src/content/provenance.ts` records Data A IDs/pages, owner authority and draft/missing status without rendering implementation notes. Two archive titles are supplied by D-026; `associationOrganised`, dates, locations and descriptions remain null, rather than assigning invented facts.
+
+`src/content/presentation.ts` filters profiles and photographs by explicit publication permission; photographs additionally require safe local `/media/...` paths, positive integer dimensions, meaningful paired alt text and credit. `PhotoGallery` preserves album photo order and omits groups with no usable photos. `PhotoFigure` uses the official [getImageProps helper](https://nextjs.org/docs/app/api-reference/components/image#getimageprops) to generate responsive optimiser URLs/srcset for a server-rendered `img`; width/height, aspect ratio, sizes and native lazy loading reserve geometry without a client image lifecycle. No cropping, blur placeholders, remote assets or fake avatars. Captions/credits render from supplied metadata. `/media/` bypasses the page allowlist to Next's static-file handling; missing files still return 404.
+
+No actual client assets are delivered. Empty states are used on real routes. Populated profiles/landscape/portrait albums are verified on a separate temporary localhost server using clearly labelled charts from `tests/fixtures/`; fixture data is never imported by `src/`. Real Next static serving/optimisation is tested with temporary verification PNG copies, removed afterwards. See [reproduction and screenshot manifests](phase-2-evidence.md). A release-specific validator and actual client media approval remain later work; permission filters/noindex do not themselves constitute publication approval.
 
 ## Content model and publication controls
 
@@ -71,9 +81,9 @@ For locale-specific `<html lang>`, propose the locale segment as root layout, wi
 - Contact is an optional supplied-public-email `mailto:` link only. Missing address means omit the public action; no contact page, form, synthetic address or substitute social channel. Legal/privacy layouts/routes can be built before text delivery; do not publish unapproved invented copy.
 - Only actual configuration goes in environment variables (for example the eventual public site origin); secrets never enter source or client bundles. A needs no provider secrets. Document required variable names/examples without invented values during Phase 1/4.
 - Optimize supplied images with explicit dimensions/sizes, intentional crops and appropriate loading; verify the chosen image pipeline on Vercel in later phases. Do not ship all full-resolution source photography as a gallery bundle.
-- Keep versioned source and an owner-controlled media backup plus a documented restore procedure. Backup locations/access/retention are not yet configured; do not claim a remote backup while this repository has no pushed history.
+- Keep versioned source and an owner-controlled media backup plus a documented restore procedure. Phase 1 has a verified GitHub checkpoint; Phase 2 is uncommitted/unpushed. Media backup locations/access/retention are not yet configured; Git is not proof of a client media backup.
 - Legal/privacy must reflect actual hosting logs and published media even with no forms/trackers. Obtain owner-approved text; this blueprint is not legal approval.
 
 ## Phase boundaries
 
-Phase 1, only when instructed, establishes the selected Next.js/TypeScript/Tailwind foundation, structured content interfaces, locale/route dictionaries, five area shell routes plus legal/privacy structures, `/ → /fr`, equivalent-page switch, shared shell/accessibility and relevant checks. Phase 2 supplies page previews/templates/content/media; Phase 3 verifies complete journeys/release output; Phase 4 deploys only when instructed and access is available. B-01 still prevents final geometry/menu/fidelity acceptance for dependent work, while the architecture/route/content/collection decisions are settled. Missing assets may arrive during development under [documented contracts](content-and-assets.md).
+Phase 1 is closed under D-024. Phase 2 supplies page previews/templates/content/media and verifies the changed implementation; approved client content remains outstanding under [delivery contracts](content-and-assets.md). Phase 3 full completion/release verification and Phase 4 deployment each require explicit instruction. B-01 reference typography/menu differences remain UNVERIFIED, not reopened or marked passed. No Phase 3, commit, push or deployment in this phase.

@@ -19,4 +19,25 @@ export interface Dictionary {
     returnHome: string;
   };
   pages: Record<PageId, { title: string }>;
+  content: {
+    previewNote: string;
+    missionHeading: string;
+    teamHeading: string;
+    eventsHeading: string;
+    photosHeading: string;
+    readMission: string;
+    readTeam: string;
+    readEvents: string;
+    readPhotos: string;
+    teamIntro: string;
+    teamEmptyTitle: string;
+    teamEmptyBody: string;
+    eventsIntro: string;
+    eventsEmptyTitle: string;
+    eventsEmptyBody: string;
+    photosIntro: string;
+    photosEmptyTitle: string;
+    photosEmptyBody: string;
+    photoCredit: string;
+  };
 }

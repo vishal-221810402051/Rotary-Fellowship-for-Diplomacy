@@ -1,0 +1,949 @@
+{
+  "date": "2026-10-20",
+  "scope": "Additional Phase 2 local-only evidence; historical omissions.json preserved unchanged",
+  "policy": "Files remain local and ignored; links to these paths in reports are intentional local-only references. Later checkpoint receipts/bookkeeping in the same ignored directory are also local-only. No raw contents/pixels published.",
+  "omitted": [
+    {
+      "path": "docs/evidence/phase-2/attempts.json",
+      "sha256": "c85827d38c04f460b9a77fd4e36707b0d5e242333dfd9e9ef21c822ea54ff873",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2/baseline.json",
+      "sha256": "59bbf8c3c69ef12266e5b653c8de0ce653744c374433fa131cd2537ed6a66bb8",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2/browser/en-events-1440.png",
+      "sha256": "844bf16ef0c9755c8327f9165b4f7589d49d9f9942f29284cc86f7a41189f400",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2/browser/en-events-390.png",
+      "sha256": "34f59029f3e78ea326c44c2d0b81f93ddf4b58af87811ab1b7943cab7b1dcd96",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2/browser/en-home-1440.png",
+      "sha256": "055f59005f0f750b6a71e6047327a5d9ea50f04436d1c2e7916a7f260ef31b6c",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2/browser/en-home-390.png",
+      "sha256": "8d6a6efab401823741d0859d0c28d14abd3af373caaa70d079a1fe0ff43be4bf",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2/browser/en-mission-1440.png",
+      "sha256": "b417a5819976fa07f5009a7acde5648e6f68464feb2abcef9cd467c96e118ea8",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2/browser/en-mission-390.png",
+      "sha256": "3ce00a2e64604ad06038f8e397690c346d10a05f41e864488f43eae8d5ba0a72",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2/browser/en-photos-1440.png",
+      "sha256": "c1fcf893e14b8f9eb888f7e265bc72cb574f9d429763fb5f3c9545682b0033b4",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2/browser/en-photos-390.png",
+      "sha256": "c59ab7894f9958ff8ae4bfba154278818ef5e6d54e060c3dd198bc3b4477cc32",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2/browser/en-team-1440.png",
+      "sha256": "40d8339ff74f15d0bafeafcf268f76c962643b8a94bee9b04b484f94958492a1",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2/browser/en-team-390.png",
+      "sha256": "70e8805b4730fc4860286d9f81bdfa86395d7209494cfc0290a768ecd7e785a0",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2/browser/fr-events-1440.png",
+      "sha256": "807bbf87f9c24f26aaf7692e2fb3eaf4a1b2eb79dfe4949254c9d9cc45df0637",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2/browser/fr-events-390.png",
+      "sha256": "f92685256d600fa3d7e854ca81a4d0ea78eea759ef5e2c96da43b877d2434949",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2/browser/fr-home-1440.png",
+      "sha256": "9c0e1c43d1b107f79b2aeeb4e8ad9124fc77f5ffa23a5c3c863990561f1f287b",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2/browser/fr-home-390.png",
+      "sha256": "2e154e1c4d51c9e379b33a37fc1f0af04146067272140d5b9f18bba06fb1e753",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2/browser/fr-mission-1440.png",
+      "sha256": "796cb0f5622a006403aa365431046e390cbf6fa8964e6750491afda975fa39fa",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2/browser/fr-mission-390.png",
+      "sha256": "29e14c230d8bbd3b846b2e6fb698d7c8e9115158d4c225ce852dfcfa2b39a623",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2/browser/fr-photos-1440.png",
+      "sha256": "658441a1047d27c2e775dff7d6d46ffaf55103366657b6cfe4abb56a31e7974b",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2/browser/fr-photos-390.png",
+      "sha256": "796db1990a80b9fc146e0e7f092563bac5ff5611c554e6f71a4a4bcbfd54162e",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2/browser/fr-team-1440.png",
+      "sha256": "8a3095136bca2ef62fa867e47ea90fd092804a298c39ec7175b3f1f8e53382be",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2/browser/fr-team-390.png",
+      "sha256": "d9fe048f76e27b7bec54bfeb5430dff10c18dd235a9402361af0d81dd55266cf",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2/browser/results.json",
+      "sha256": "8e646ef26ad1e218a79156e05ebd3a82fd215abca6c812eb91def18c973903d0",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2/build.json",
+      "sha256": "83f02a94d3c121e31a445606ea46a7ae8350c60d3b8363ef7e5b5798b8eddd91",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2/cleanup.json",
+      "sha256": "59e883b896f33c1e9b5973006cee06a4120da09650cc0986d2e042bcc75379eb",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2/documentation.json",
+      "sha256": "6a7f773acb1d196f43b2329e7aca272a6da9689aaeee3620e9182807e08bfc85",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2/http.json",
+      "sha256": "6fdaa643f210c267928d5f2c6eb3486599a3439c5c7515c99495721231ecfddc",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2/lint.json",
+      "sha256": "53e89cd6e07616ca5b32e9b13352f74b05b34bd57dee1b2a4e9112b6a48dc2e6",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2/media-fixtures/en-1440.png",
+      "sha256": "6d3e36bbe679e02c2ec39fd2f94dadd7cc68a852a33b85791b39aa2a19e60b45",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2/media-fixtures/en-320.png",
+      "sha256": "1c8749d934e67713c0c1b0b59436283c809af12150b3f70860b87d109808b87e",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2/media-fixtures/en-390.png",
+      "sha256": "7e122579cad8139210eda931f54b013f81d3562082ced4f5e5f1e796f7f725ff",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2/media-fixtures/fr-1440.png",
+      "sha256": "9fe632aec9f5607d249301b07877df96d627418db6957b5bcd5dcd6bcf3b1888",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2/media-fixtures/fr-320.png",
+      "sha256": "05314aa02f8dd2654e4a199c18f70cabc5301fb1fbb63fb7f227187e3087af0e",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2/media-fixtures/fr-390.png",
+      "sha256": "3b616143221ca7fd01f35d8201946aeab4246aa412133b80b90ed93f64b2a191",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2/media-fixtures/results.json",
+      "sha256": "b3be6cf821a9b0d66a5113bec405e34186875620b4e83c1d2e492b1125228ffd",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2/test.json",
+      "sha256": "bbc1fa69f5188097dd6f4e08661f410e8889f7a29a4b7d7efe1aafa4205eb087",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2/typecheck.json",
+      "sha256": "3cacaaadcc7ab20ab3e790742b226e38249f0c063b9201b929029030af63bfaa",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2/whitespace.json",
+      "sha256": "7153cc919503775edce994889b9ed46486c595c6a5802a7ed74085f8bbcd0801",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-checkpoint-20261020/baseline.json",
+      "sha256": "8d6753a2b76546cf6ecc42075af98b4b9c35bbaa88654879514d5ea6f0cfba71",
+      "reason": "Checkpoint-only baseline, isolated-run helper or raw command output; sanitized checks/source hashes published separately.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-checkpoint-20261020/build.json",
+      "sha256": "4049ea2c3ace6574dc718eb7dfe1d4aec704b36087e2d869b51a9512362734b6",
+      "reason": "Checkpoint-only baseline, isolated-run helper or raw command output; sanitized checks/source hashes published separately.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-checkpoint-20261020/lint.json",
+      "sha256": "684b79c62212124f5e4c6e33a6e164524408cd281849ef02d7cf2d4eb81bca70",
+      "reason": "Checkpoint-only baseline, isolated-run helper or raw command output; sanitized checks/source hashes published separately.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-checkpoint-20261020/run.py",
+      "sha256": "5a59ae6d3e89ec85664d1e947ceb93c24af4cc3b57e5fbec57446295f8eb1218",
+      "reason": "Checkpoint-only baseline, isolated-run helper or raw command output; sanitized checks/source hashes published separately.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-checkpoint-20261020/setup.json",
+      "sha256": "70b0da3e465fbd7e4e25a954431e3dc191c0e0862f1631878a967e0045186f7c",
+      "reason": "Checkpoint-only baseline, isolated-run helper or raw command output; sanitized checks/source hashes published separately.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-checkpoint-20261020/test.json",
+      "sha256": "58011a07bd4ec22e5e328ac4722563a794f18c6d846a3f3ce6cf8abc7bb330f0",
+      "reason": "Checkpoint-only baseline, isolated-run helper or raw command output; sanitized checks/source hashes published separately.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-checkpoint-20261020/typecheck.json",
+      "sha256": "cd30790df8edfcc652b1fbb57ee0761990189eaeb15884384941056c302e8937",
+      "reason": "Checkpoint-only baseline, isolated-run helper or raw command output; sanitized checks/source hashes published separately.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/audit-admin-attempts.json",
+      "sha256": "7530177cd78624aca07bbc820c42dea37bd7e96a155c4a4529f943c22124d0e4",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/audit-request.txt",
+      "sha256": "ec2b3216c3fc56b9e58c38e8fa4887119d225beab13213b2d63546bcf205248b",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/baseline.json",
+      "sha256": "7d2d90c1cb5eb4bee48323411f00fe31c928d9e7c6250862e7d026d2fdcfa87e",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/cleanup.json",
+      "sha256": "9a2966db41e2d0df0c1e907c3c612c22a8c12c68c40d224438148d76b67d52ea",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/commands/browser.json",
+      "sha256": "114dd68af3a5f5a5d676c734df72ad8e39c45a54a94b6f6379f63e0ddb80af1b",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/commands/build-with-fixtures-summary.json",
+      "sha256": "62c502515b9ece67346a1b3896942d33be0f776ff774235d21fac4d236ceb699",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/commands/build.json",
+      "sha256": "ef79a0c32b402bc9a95d3f867e003800ae6a6271212bef235020619b9ee4f427",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/commands/docs.json",
+      "sha256": "76180cf4a58aebbd8b966e9ce9b3a97f9485a3ffcc6689e43f11be32b2f10d35",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/commands/http.json",
+      "sha256": "425afa2d346937d4ccd83c36acfb4ec6f65ede05ff9455ca553ce303e34f60a9",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/commands/lint.json",
+      "sha256": "6c3cb9b1d28e8742644d554f521c3ab9fd116a9322606546e5cd4f0b3abb4c01",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/commands/media.json",
+      "sha256": "4bc477104ccea38d42899cabd980115f0e32a8e61c27f6d523eb20d86f0f822d",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/commands/test.json",
+      "sha256": "0926ef576ed53ab3a39ff7a117a7f2ddd8f8f76c9c6766b64396dd14027fbf04",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/commands/typecheck.json",
+      "sha256": "4e78fcb6b0a143ab4ca7d1bc12eaedca5bd32427c8a0f3ae9ff851b8419c44c2",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/commands/whitespace.json",
+      "sha256": "1be01b2d277daca00c87a6a0bb03a599adf01748ad7ce4f050a897af5ec85213",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/component-probes.json",
+      "sha256": "3e3eef7d7f4294149e2dd0792cffe7214c63c263938269117c9481031d2a9a5e",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/disclosure-followup.mjs",
+      "sha256": "0dc17f71e1da58d96d46a828fde257d147a2385110b7860282d09851610d53b7",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/environment.json",
+      "sha256": "ffe2bc39e82060a93796b561ab3fdc843eef90bdcc2772d9370f8bdcf42f2b0d",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/final-state.json",
+      "sha256": "79ea3096af1e8f4ff18c92bf7b3310f07a8a68ce360e75f39fc3c7d9859ea00d",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/independent/contrast-review.json",
+      "sha256": "ceda038c1a2920687f97bc258148a19b44be0279f77d20dae05248498c74fdb1",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/independent/disclosure-followup.json",
+      "sha256": "1a7f5846288b47114e9fb7f8db1f9f4deb4bade05b4e80a86ff7777d937fc8db",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/independent/en-0-320.png",
+      "sha256": "8354337485a427f8536ff310c674cc9f53fcc7e9bf60c7f5c7107dbe79d0a2b8",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/independent/en-1-768.png",
+      "sha256": "9ac815b6d0b79bc38f5181f35e88227799d2d6e3abda611c1c0345cfb7f1a435",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/independent/en-menu-keyboard-390.png",
+      "sha256": "db3798b1cfd892d9077ddbf274bab3ae3fb47a9b4f3a1be3551e2353961d5aa4",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/independent/false-empty-en-390.png",
+      "sha256": "6be149c34138d85f7aba7faa6da9fc2f1b7399cce67ab8c2d50c807a916bab79",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/independent/false-empty-fr-1440.png",
+      "sha256": "a795a0a1973e9621f1e4faa16821d59c281636e355fcbd9345e43f1002916091",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/independent/fr-0-320.png",
+      "sha256": "f996a85a7c19f08289698cb04a47cb3540518a22ac8da6982e1e4e89226b02f0",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/independent/fr-1-768.png",
+      "sha256": "b4974e8fdf85a311bfeb29bdf58510ab24d038676e82baaed54e662184c74b57",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/independent/fr-menu-keyboard-390.png",
+      "sha256": "f73dd85e3ab636ba83863a0384b2489563ec7b874c9fc0d608a6cd6d6d78de72",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/independent/locale-focus-followup.json",
+      "sha256": "01e83f2c4f50ef54ee12afec5a61aec51da9f0a4387cd63ddadf350f72587006",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/independent/preview-attempt1.json",
+      "sha256": "a0fd82f81e43191c44100e6325b1687178e3e19f004f95d1288d85b4baa3a43d",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/independent/preview-reproduction.json",
+      "sha256": "4a035e0ab16325e8ffea79051e6cd06b84956768d30d9236dbe95851eb5c93f9",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/independent/results.json",
+      "sha256": "617b0f9b90bdb3da8fd1b4840fb2db1eeb3cd6ffef6504f548fbd7c43012d6f4",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/independent-browser.mjs",
+      "sha256": "2fb572361d92ff88f1ba0ad3965639b638d2040810033e62d19b662f8759dbbe",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/locale-focus-followup.mjs",
+      "sha256": "1002eb2999bb66ae5aab566cfb49c763207f284328a75118946b811c428f9ea1",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/preservation-review.json",
+      "sha256": "6eee513f65412063566bb1ed67a3aaad99aaae8ce9f26b45fba92450a4100a72",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/preview-reproduction-attempt1.mjs",
+      "sha256": "079746b36a64a0e4d0086cdee88a15fe5bcbd2561163edb756b84c67be6475b3",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/preview-reproduction.mjs",
+      "sha256": "6c1b02688962bb07d1cb4e1a98f6570c610dee57dfd4bf8d4da6b81731f02b15",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/recorded-scripts/attempts.json",
+      "sha256": "c85827d38c04f460b9a77fd4e36707b0d5e242333dfd9e9ef21c822ea54ff873",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/recorded-scripts/browser/en-events-1440.png",
+      "sha256": "844bf16ef0c9755c8327f9165b4f7589d49d9f9942f29284cc86f7a41189f400",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/recorded-scripts/browser/en-events-390.png",
+      "sha256": "34f59029f3e78ea326c44c2d0b81f93ddf4b58af87811ab1b7943cab7b1dcd96",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/recorded-scripts/browser/en-home-1440.png",
+      "sha256": "055f59005f0f750b6a71e6047327a5d9ea50f04436d1c2e7916a7f260ef31b6c",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/recorded-scripts/browser/en-home-390.png",
+      "sha256": "8d6a6efab401823741d0859d0c28d14abd3af373caaa70d079a1fe0ff43be4bf",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/recorded-scripts/browser/en-mission-1440.png",
+      "sha256": "b417a5819976fa07f5009a7acde5648e6f68464feb2abcef9cd467c96e118ea8",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/recorded-scripts/browser/en-mission-390.png",
+      "sha256": "3ce00a2e64604ad06038f8e397690c346d10a05f41e864488f43eae8d5ba0a72",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/recorded-scripts/browser/en-photos-1440.png",
+      "sha256": "c1fcf893e14b8f9eb888f7e265bc72cb574f9d429763fb5f3c9545682b0033b4",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/recorded-scripts/browser/en-photos-390.png",
+      "sha256": "c59ab7894f9958ff8ae4bfba154278818ef5e6d54e060c3dd198bc3b4477cc32",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/recorded-scripts/browser/en-team-1440.png",
+      "sha256": "40d8339ff74f15d0bafeafcf268f76c962643b8a94bee9b04b484f94958492a1",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/recorded-scripts/browser/en-team-390.png",
+      "sha256": "70e8805b4730fc4860286d9f81bdfa86395d7209494cfc0290a768ecd7e785a0",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/recorded-scripts/browser/fr-events-1440.png",
+      "sha256": "807bbf87f9c24f26aaf7692e2fb3eaf4a1b2eb79dfe4949254c9d9cc45df0637",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/recorded-scripts/browser/fr-events-390.png",
+      "sha256": "f92685256d600fa3d7e854ca81a4d0ea78eea759ef5e2c96da43b877d2434949",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/recorded-scripts/browser/fr-home-1440.png",
+      "sha256": "9c0e1c43d1b107f79b2aeeb4e8ad9124fc77f5ffa23a5c3c863990561f1f287b",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/recorded-scripts/browser/fr-home-390.png",
+      "sha256": "2e154e1c4d51c9e379b33a37fc1f0af04146067272140d5b9f18bba06fb1e753",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/recorded-scripts/browser/fr-mission-1440.png",
+      "sha256": "796cb0f5622a006403aa365431046e390cbf6fa8964e6750491afda975fa39fa",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/recorded-scripts/browser/fr-mission-390.png",
+      "sha256": "29e14c230d8bbd3b846b2e6fb698d7c8e9115158d4c225ce852dfcfa2b39a623",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/recorded-scripts/browser/fr-photos-1440.png",
+      "sha256": "658441a1047d27c2e775dff7d6d46ffaf55103366657b6cfe4abb56a31e7974b",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/recorded-scripts/browser/fr-photos-390.png",
+      "sha256": "796db1990a80b9fc146e0e7f092563bac5ff5611c554e6f71a4a4bcbfd54162e",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/recorded-scripts/browser/fr-team-1440.png",
+      "sha256": "8a3095136bca2ef62fa867e47ea90fd092804a298c39ec7175b3f1f8e53382be",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/recorded-scripts/browser/fr-team-390.png",
+      "sha256": "d9fe048f76e27b7bec54bfeb5430dff10c18dd235a9402361af0d81dd55266cf",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/recorded-scripts/browser/results.json",
+      "sha256": "c5ad615d3991bc32255cdb983a9a2fb5c3b6e7555d62bf8309922642bc1ab7cb",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/recorded-scripts/build.json",
+      "sha256": "83f02a94d3c121e31a445606ea46a7ae8350c60d3b8363ef7e5b5798b8eddd91",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/recorded-scripts/cleanup.json",
+      "sha256": "59e883b896f33c1e9b5973006cee06a4120da09650cc0986d2e042bcc75379eb",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/recorded-scripts/documentation.json",
+      "sha256": "4e92be95ce9546164fde1d54b32c92dd350b6b65fcc5bb985a24c140db09f934",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/recorded-scripts/http.json",
+      "sha256": "bec0629d7752a642a0e6667af5b1c0f73d85fb1af84189c9958f6f466109cfc1",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/recorded-scripts/lint.json",
+      "sha256": "53e89cd6e07616ca5b32e9b13352f74b05b34bd57dee1b2a4e9112b6a48dc2e6",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/recorded-scripts/media-fixtures/en-1440.png",
+      "sha256": "6d3e36bbe679e02c2ec39fd2f94dadd7cc68a852a33b85791b39aa2a19e60b45",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/recorded-scripts/media-fixtures/en-320.png",
+      "sha256": "1c8749d934e67713c0c1b0b59436283c809af12150b3f70860b87d109808b87e",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/recorded-scripts/media-fixtures/en-390.png",
+      "sha256": "7e122579cad8139210eda931f54b013f81d3562082ced4f5e5f1e796f7f725ff",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/recorded-scripts/media-fixtures/fr-1440.png",
+      "sha256": "9fe632aec9f5607d249301b07877df96d627418db6957b5bcd5dcd6bcf3b1888",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/recorded-scripts/media-fixtures/fr-320.png",
+      "sha256": "05314aa02f8dd2654e4a199c18f70cabc5301fb1fbb63fb7f227187e3087af0e",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/recorded-scripts/media-fixtures/fr-390.png",
+      "sha256": "3b616143221ca7fd01f35d8201946aeab4246aa412133b80b90ed93f64b2a191",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/recorded-scripts/media-fixtures/results.json",
+      "sha256": "a5ac9e6cbb9acc878f51a55d19e78c066229779fac596c7e244df002ea41ae75",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/recorded-scripts/test.json",
+      "sha256": "bbc1fa69f5188097dd6f4e08661f410e8889f7a29a4b7d7efe1aafa4205eb087",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/recorded-scripts/typecheck.json",
+      "sha256": "3cacaaadcc7ab20ab3e790742b226e38249f0c063b9201b929029030af63bfaa",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/recorded-scripts/whitespace.json",
+      "sha256": "7153cc919503775edce994889b9ed46486c595c6a5802a7ed74085f8bbcd0801",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/run-command.py",
+      "sha256": "fee7b4533a37ce3e9d8c23690aca449e25193a86e1d2fdacdf732d0a57bd3831",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-independent-audit-20261019T010251Z/setup.json",
+      "sha256": "3a95ea08b74e8c11ad789964b0ab0a1af5cd21a85cb1b7a7846bb1af62ca4961",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-resolution-20261019T014821Z/baseline.json",
+      "sha256": "95ba9125f97d784666e5da5e9ca97a6b28844dfb7628a316e485ef31fb086aca",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-resolution-20261019T014821Z/browser/en-1440-case-0.png",
+      "sha256": "ba6b7817347f506b6515c94956825358136113dde4e5e2820ee6de576be4f660",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-resolution-20261019T014821Z/browser/en-1440-case-1.png",
+      "sha256": "5655e296a81a3f0dd00a9fdaa70c333b795dfb4fe3b6c7192cf3007c280c61db",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-resolution-20261019T014821Z/browser/en-1440-case-2.png",
+      "sha256": "937ac8500f4980859ab227cc0925fc5ff582ad75d9bb179f8e5def49fe2d3b31",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-resolution-20261019T014821Z/browser/en-1440-case-3.png",
+      "sha256": "5f4ee0ece585c31b0e9dce8c6209d60eaa973ce3fc3b665117b9ced1e73392e6",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-resolution-20261019T014821Z/browser/en-1440-case-4.png",
+      "sha256": "a614c0e6948c1a687d7091ab487da45a357eef21caa02cf3ad0f99e347bfb931",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-resolution-20261019T014821Z/browser/en-390-case-0.png",
+      "sha256": "379ec27bed2432d9c1caae0b0339678ae35f4004dc41b4a9221fe38040288413",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-resolution-20261019T014821Z/browser/en-390-case-1.png",
+      "sha256": "f72f3c462a52342f626eab9ff398f27683539fd7bfc5800472adf6b613983784",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-resolution-20261019T014821Z/browser/en-390-case-2.png",
+      "sha256": "6963c12bef56c87c35e8f9066e63a3d6ccc95c94c9e6d463e6e501a92bf92124",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-resolution-20261019T014821Z/browser/en-390-case-3.png",
+      "sha256": "4bacd6fe207d455085e06207d3a7aef81a2495aa542d68a8b6719284d3acffb5",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-resolution-20261019T014821Z/browser/en-390-case-4.png",
+      "sha256": "ea393138d71f1305b7228a59f9b89fde973089ece0149ed5236d2eb7fb5efdbc",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-resolution-20261019T014821Z/browser/fr-1440-case-0.png",
+      "sha256": "a43a5fba321914386eabe3641313cd4cef3a2de853e08febf5d2fb3642f19250",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-resolution-20261019T014821Z/browser/fr-1440-case-1.png",
+      "sha256": "e5311f0f9967c374de493fa2b3e0c3c81ac14dcce6dc7a2b83787cddfba0a0ed",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-resolution-20261019T014821Z/browser/fr-1440-case-2.png",
+      "sha256": "6af8c3e76239cf20be56007baab7a8553951aaa65528bdcd14029fd74e0f174c",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-resolution-20261019T014821Z/browser/fr-1440-case-3.png",
+      "sha256": "473fb39627cf721eab49812cfe3d4646f2cc9db8d7c69171a9d299bd493846ac",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-resolution-20261019T014821Z/browser/fr-1440-case-4.png",
+      "sha256": "ff9b789ea37cfb4ddf8968b966f70e9071940f5fe0dab8993f81a2276eb7866c",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-resolution-20261019T014821Z/browser/fr-390-case-0.png",
+      "sha256": "680f3d71123d7b03b9c80e1339e5cc7bc131789e741ab33c1db21ae8bdedbc27",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-resolution-20261019T014821Z/browser/fr-390-case-1.png",
+      "sha256": "c4c3601a99187d33da6b89018283a7f47ba9badef2c17fa9bd7b4ffddf10d643",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-resolution-20261019T014821Z/browser/fr-390-case-2.png",
+      "sha256": "ac3aea2bd2f6a55e6be16599c2ade9eda666f446ce481f3fd85cb6c7e5d42b13",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-resolution-20261019T014821Z/browser/fr-390-case-3.png",
+      "sha256": "df50bd89e1b431ad8d03af63f5edc7c4a6d4a018167771c27ed6419b9208aef3",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-resolution-20261019T014821Z/browser/fr-390-case-4.png",
+      "sha256": "bf0730807052b4b5b195b153b125a4728fa0959100a32fac7b0c7d34fffb9735",
+      "reason": "Historical or synthetic browser capture; not reviewed for GitHub publication. Exact state/URL/viewport remains in the local manifest.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-resolution-20261019T014821Z/browser/results.json",
+      "sha256": "b31fbf2b13e51d9aaecba8c9be3550884f956086297c41b1c812a444ecea1672",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-resolution-20261019T014821Z/cleanup.json",
+      "sha256": "41ee344f2ef31fef87676578b7c87c32d939f38ecd51fe773ae1fa2e9b0fccca",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-resolution-20261019T014821Z/commands/build-with-fixture.json",
+      "sha256": "43e9649e7d047ea83769870d530ed8657ee18ed12802ea8e77673d18e9d5d65a",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-resolution-20261019T014821Z/commands/build.json",
+      "sha256": "824c98771a84e53dddd46e9bc0a5608ceb147b3426ee2696d04b00140c7bf550",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-resolution-20261019T014821Z/commands/lint-before-evidence-exclusion.json",
+      "sha256": "ff293d0c49898e09092b78dac13efffb49e2b46fb830bd7ace150bcd6fd6c4e1",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-resolution-20261019T014821Z/commands/lint.json",
+      "sha256": "27668f471b4d1063a988cef6f6a492a8fb72638ffd94cfeef5dd29b2e27b52b1",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-resolution-20261019T014821Z/commands/photo-preview.json",
+      "sha256": "954e5d375da20e101cff2c5de507c6fa9865711e22ca8172c91539feca609185",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-resolution-20261019T014821Z/commands/test.json",
+      "sha256": "8dd39cb5a623eef6a1a7ce7950e8233eec99b9e2172c5cfce6ee657482b6569c",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-resolution-20261019T014821Z/commands/typecheck.json",
+      "sha256": "9f30a673404acc94785dbed301752252cd12430d849eb43e901ed2368ac53434",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-resolution-20261019T014821Z/phase-2-report-before-resolution.md",
+      "sha256": "608e3c5e953514033a3de6d6278906416ce04193415981f57fcfa465e87871b7",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-resolution-20261019T014821Z/preservation.json",
+      "sha256": "95985862742b0dd74b72b39ddad18cdcc4cffa6366c0bc9a71fbc73a8e7930ea",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-resolution-20261019T014821Z/red-tests.json",
+      "sha256": "fc8e13b4ddf8972e822630b0003cd1fd1fbf4d284ee5e5393439d9ab2955e59d",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-resolution-20261019T014821Z/run-command.py",
+      "sha256": "333fa2553e069215f186893f1999ee78c4840ef63191f40f253184f657f68fcc",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-resolution-20261019T014821Z/setup.json",
+      "sha256": "0047bd1817ea74be81934b1d40e02e011439c07ac426b71f5c8f65bf0f202de7",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    },
+    {
+      "path": "docs/evidence/phase-2-resolution-20261019T014821Z/targeted-http-and-source.json",
+      "sha256": "d45e078604cc1aed4cfca9ca3bb77ff6ba13548832c26eb5fb88ada5f2f59d6c",
+      "reason": "Raw diagnostic/output or preservation manifest; retains local paths and historical context, summarized for publication.",
+      "retainedLocally": true
+    }
+  ]
+}

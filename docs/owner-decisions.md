@@ -22,3 +22,11 @@ The reference fallback has been exercised: [availability evidence](evidence/refe
 ## Subsequent owner decision: Phase 1 acceptance
 
 **D-024 / S-15, 18 October 2026:** the owner accepts the tested local typography and accessible mobile navigation as provisional design choices and explicitly removes exact reference typography/mobile-menu equivalence from Phase 1 closure requirements. Those comparisons remain UNVERIFIED, not passed checks. All other gates are retained; saved evidence permits Phase 1 closure. [Verbatim instruction and precise scope](phase-1-acceptance-change.md), [closure report](phase-1-report.md). No new reference requests, unchanged tests, Phase 2 work, commit, push or deployment. This is an owner decision, not a Data A answer.
+
+## Subsequent owner decision: Part A implementation
+
+**D-026 / S-16, 19 October 2026:** [verbatim Phase 2 request](phase-2-instructions.md) authorizes the five bilingual page layouts, source-faithful draft home/mission copy, reusable team/album/media components and honest bilingual empty states where client material is absent. The owner expressly supplies the two forum titles for the past-event archive; English title translations remain drafts, with no inferred dates, venues, speakers, attendance or organising attribution. Title-only detail pages are excluded. Isolated fixtures may verify populated states without becoming association content. Missing client assets may remain publication dependencies; implementation failures cannot. Preserve D-024; no new reference requests, Phase 3, commit, push or deployment. These are explicit owner decisions, separate from unchanged Data A evidence and original approval gates. [Implementation versus publication acceptance](phase-2-report.md).
+
+## Subsequent owner decision: Phase 2 checkpoint
+
+**D-027 / S-18, 20 October 2026:** explicitly authorize reviewing all Phase 2 changes, safe staging, the named commit and normal push of `main` to the supplied GitHub origin, with remote SHA verification. Preserve local-only evidence, unrelated work and historical audit failures. This supersedes earlier no-commit/no-push restrictions only; Phase 3 and deployment remain unauthorized. D-024 and publication dependencies are unchanged. [Checkpoint scope and evidence policy](phase-2-github-checkpoint.md).

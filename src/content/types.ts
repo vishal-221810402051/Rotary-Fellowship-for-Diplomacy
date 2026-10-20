@@ -21,22 +21,22 @@ export interface TeamProfile {
   role: Localized<string>;
   biography: Localized<string>;
   portraitId: string | null;
+  publicationPermission: "pending" | "approved";
 }
 
 export interface PastEvent {
   id: string;
-  slug: Localized<string>;
   title: Localized<string>;
-  summary: Localized<string>;
+  summary: Localized<string> | null;
   dateLabel: Localized<string> | null;
   location: Localized<string> | null;
-  associationOrganised: true;
+  associationOrganised: boolean | null;
   photoIds: readonly string[];
 }
 
 export interface PhotoAsset {
   id: string;
-  eventId: string;
+  eventId: string | null;
   path: `/media/${string}`;
   width: number;
   height: number;
@@ -44,6 +44,14 @@ export interface PhotoAsset {
   caption: Localized<string>;
   credit: string;
   publicationPermission: "pending" | "approved";
+}
+
+export interface PhotoAlbum {
+  id: string;
+  title: Localized<string>;
+  description: Localized<string> | null;
+  eventId: string | null;
+  photoIds: readonly string[];
 }
 
 export interface LegalContent {
@@ -56,6 +64,7 @@ export interface PartAContent {
   team: ContentSlot<readonly TeamProfile[]>;
   events: ContentSlot<readonly PastEvent[]>;
   photos: ContentSlot<readonly PhotoAsset[]>;
+  albums: ContentSlot<readonly PhotoAlbum[]>;
   legal: Localized<ContentSlot<LegalContent>>;
   privacy: Localized<ContentSlot<LegalContent>>;
 }

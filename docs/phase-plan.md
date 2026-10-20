@@ -1,6 +1,6 @@
 # Five-phase plan and acceptance gates
 
-**Exactly phases 0–4. Phase 0 and Phase 1 are complete.** Phase 1 closes under [owner acceptance change D-024](phase-1-acceptance-change.md): tested typography/mobile navigation accepted provisionally; exact reference typography/menu equivalence no longer required for closure and remain UNVERIFIED. All other Phase 1 gates below are unchanged and met by saved evidence; see [the report](phase-1-report.md). Phase 2 is ready for explicit instruction; phases 2–4 have not started or been authorized. User instruction remains required before each transition. Phase 0 rows record historical closure status.
+**Exactly phases 0–4. Phase 0 and Phase 1 are complete; Phase 2 implementation/verification is complete under D-026.** Approved content/publication gates remain pending. Phase 1 closes under [D-024](phase-1-acceptance-change.md); typography/mobile reference equivalence remains UNVERIFIED, not a pass. Phase 3 awaits explicit instruction; phases 3–4 have not started or been authorized. See [current report](phase-2-report.md). Phase 0/1 rows retain historical closure evidence.
 
 ## Phase 0 — Evidence, scope and project blueprint
 
@@ -34,11 +34,13 @@ Measurable exit gates:
 
 ## Phase 2 — Part A implementation
 
-Entry: Phase 1 accepted and explicit instruction; owner-approved separate area/page/content boundary in force; content may arrive during development with identifiable local drafts tracked. Actual approval remains necessary for content completion/release.
+Entry met: [explicit Phase 2 instruction S-16 / D-026](phase-2-instructions.md), 19 October 2026, from Phase 1 checkpoint `e8582f3245540d2c32789da6a11db5937d44eb62` on main. Owner-approved separate areas/content boundary in force; identifiable drafts/empty states permitted. Actual approval remains necessary for content completion/release.
 
 Scope: five separate home/mission/team/past-events/photos pages with home previews; content-supported event details/albums, supplied contextual public bilingual PDFs where available, legal/privacy text when supplied and optional public email link only once available; paired content/media/meta. Excludes contact page/form, deferred workflows/services and redesign beyond approved mapping.
 
 Exit: all agreed routes render approved content in both languages; home→essential, applicable event/album paths and legal/privacy/optional-email journeys pass; translation key/content ID parity and media/document references validate; no invented facts/rights or unapproved public content; visible controls have real destinations. Verify representative desktop/mobile screenshots against mapping, image sizes/crops/alt, optional controls and inventory. Missing required real content means content completion remains incomplete, not silent omission. Missing optional email means omit action, not block the whole release by default.
+
+**D-026 implementation acceptance, separate from the retained approved-content exit above:** five coherent bilingual layouts/home previews, faithful marked drafts, title-only archive, reusable permission-aware profiles/albums/images, honest missing-content handling, unchanged paired routes/noindex/404, no excluded workflows, required type/lint/tests/build and rendered desktop/tablet/mobile/accessibility/media checks. These implementation criteria pass in the [Phase 2 report](phase-2-report.md). Approved core content and public release remain **PENDING**, not passed by fixtures or empty states. No event details/lightbox justified by current inputs. D-024 remains effective; no reference reinspection. Phase 3 readiness means ready for an explicit instruction, not authorization or publication readiness.
 
 ## Phase 3 — Verification and completion
 

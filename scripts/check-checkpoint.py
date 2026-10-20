@@ -15,9 +15,28 @@ def git(*args):
 names = [name for name in git('ls-files', '-z').stdout.decode().split('\0') if name]
 assert names, 'Stage the proposed checkpoint first.'
 tracked = set(names)
-manifest = json.loads((ROOT / 'docs/evidence/public/omissions.json').read_text(encoding='utf-8'))
-omitted = {entry['path']: entry for entry in manifest['omitted']}
 issues = []
+
+
+def staged_json(name):
+    result = git('show', ':' + name)
+    assert result.returncode == 0, f'Missing staged manifest: {name}'
+    return json.loads(result.stdout.decode('utf-8-sig'))
+
+
+omitted = {}
+for name in ['docs/evidence/public/omissions.json', 'docs/evidence/public/phase-2-omissions.json']:
+    if name not in tracked:
+        continue
+    for entry in staged_json(name)['omitted']:
+        if entry['path'] in omitted and omitted[entry['path']] != entry:
+            issues.append({'file': entry['path'], 'rule': 'conflicting_omission'})
+        omitted[entry['path']] = entry
+
+phase_2_summary = 'docs/evidence/public/phase-2-verification-summary.json'
+fixture_hashes = staged_json(phase_2_summary)['reviewedFixtureSha256'] if phase_2_summary in tracked else {}
+# Only these two visually reviewed, nonphotographic test charts are eligible.
+allowed_fixtures = {'tests/fixtures/media/landscape.png', 'tests/fixtures/media/portrait.png'}
 patterns = {
     'private_key': r'-----BEGIN (?:[A-Z ]+ )?PRIVATE KEY-----',
     'github_token': r'\b(?:gh[pousr]_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{30,})',
@@ -35,7 +54,8 @@ for name in names:
         issues.append({'file': name, 'rule': 'local_only_evidence_staged'})
     data = git('show', ':' + name).stdout
     if path.suffix.lower() in {'.png', '.jpg', '.jpeg', '.webp'}:
-        if not name.startswith('docs/evidence/phase-1-fidelity-review/'):
+        reviewed_fixture = name in allowed_fixtures and hashlib.sha256(data).hexdigest() == fixture_hashes.get(name)
+        if not name.startswith('docs/evidence/phase-1-fidelity-review/') and not reviewed_fixture:
             issues.append({'file': name, 'rule': 'unreviewed_image'})
         continue
     text = data.decode('utf-8-sig')
@@ -62,14 +82,21 @@ for name in names:
             continue
         issues.append({'file': name, 'rule': 'unrecorded_missing_link', 'target': relative})
 
-summary = json.loads((ROOT / 'docs/evidence/public/verification-summary.json').read_text(encoding='utf-8'))
 checked_evidence = 0
-for name, digest in summary['sourceSha256'].items():
-    if name not in tracked:
-        continue  # Raw local-only originals are declared in the omission inventory.
-    checked_evidence += 1
-    if hashlib.sha256(git('show', ':' + name).stdout).hexdigest() != digest:
-        issues.append({'file': name, 'rule': 'published_source_hash_mismatch'})
+for summary_name in ['docs/evidence/public/verification-summary.json', phase_2_summary]:
+    if summary_name not in tracked:
+        continue
+    for name, digest in staged_json(summary_name)['sourceSha256'].items():
+        if name not in tracked:
+            if summary_name == phase_2_summary:
+                issues.append({'file': name, 'rule': 'missing_verified_source'})
+            continue  # Phase 1 raw originals are declared in the omission inventory.
+        checked_evidence += 1
+        if hashlib.sha256(git('show', ':' + name).stdout).hexdigest() != digest:
+            issues.append({'file': name, 'rule': 'published_source_hash_mismatch'})
+for name, digest in fixture_hashes.items():
+    if name not in allowed_fixtures or name not in tracked or hashlib.sha256(git('show', ':' + name).stdout).hexdigest() != digest:
+        issues.append({'file': name, 'rule': 'reviewed_fixture_hash_mismatch'})
 whitespace = git('diff', '--cached', '--check')
 if whitespace.returncode:
     issues.append({'rule': 'git_diff_check', 'detail': whitespace.stdout.decode().strip()})

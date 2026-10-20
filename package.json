@@ -14,7 +14,8 @@
     "lint": "eslint . --max-warnings=0",
     "test": "tsx --test tests/*.test.ts tests/*.test.tsx",
     "check:http": "tsx scripts/verify-http.ts",
-    "check:browser": "tsx scripts/verify-browser.ts"
+    "check:browser": "tsx scripts/verify-phase-2-browser.ts",
+    "check:media": "tsx scripts/verify-media-fixtures.tsx"
   },
   "dependencies": {
     "next": "16.4.2",
